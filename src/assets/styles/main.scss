@@ -1,5 +1,11 @@
 @import url(./fonts.scss);
 
+
+@mixin media($size) {
+    @media(max-width: #{$size}px) {
+        @content;
+    }
+}
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +19,7 @@
 } 
 
 .container {
-  max-width: 1200px;
+  max-width: 1250px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
