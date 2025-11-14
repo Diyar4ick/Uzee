@@ -82,13 +82,14 @@
         position: fixed;
         top: 0;
         right: -100%;
-        width: 200px;
+        width: 220px;
         height: 100vh;
+        padding-top: 80px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         background: white;
-        justify-content: center;
+        justify-content: start;
         transition: right 0.3s ease;
         box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(6px);
@@ -100,15 +101,38 @@
     }
     &-item {
       padding: 5px 10px;
-      text-align: center;
       position: relative;
+
       &:not(:last-child) {
         border-right: solid 2px #0054b4a9;
+        @include media(800) {
+          border-right: none;
+          border-bottom: solid 1px rgba(128, 128, 128, 0.437);
+          width: 100%;
+        }
       }
 
       a {
         color: #1c1c1c;
+        font-weight: 500;
+
+        @include media(1250) {
+          font-size: 12px;
+          font-weight: 700;
+        }
+        @include media(1020) {
+          padding: 5px;
+          font-size: 12px;
+        }
+        @include media(900) {
+          padding: 3px;
+          font-size: 11px;
+        }
+      }
+      button {
+        color: #1c1c1c;
         font-weight: 700;
+        text-transform: uppercase;
         @include media(1250) {
           font-size: 12px;
         }
@@ -121,37 +145,21 @@
           font-size: 11px;
         }
       }
+    }
+    &-dropdown {
+      position: absolute;
+      background: white;
+      z-index: 999;
+      text-align: left;
+      padding: 15px;
+      box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
 
-      select {
-        font-size: 14px;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: #1c1c1c;
-        cursor: pointer;
-        appearance: none; /* убираем системную стрелку */
-        max-width: 200px;
-        padding: 10px;
-        /* для переноса текста */
-        white-space: normal;
-        overflow-wrap: break-word;
-        word-break: break-word;
-        @include media(1250) {
-          max-width: 150px;
-          padding: 7px;
-          font-size: 12px;
-        }
-        @include media(1020) {
-          max-width: 120px;
-          padding: 5px;
-          font-size: 12px;
-        }
-        @include media(900) {
-          max-width: 100px;
-          padding: 3px;
-          font-size: 11px;
-        }
-        @include media(800) {
-        }
+      @include media(800) {
+        position: inherit;
+      }
+
+      li {
+        padding: 10px 0;
       }
     }
   }
@@ -203,9 +211,8 @@
         font-weight: 400;
         color: gray;
         display: flex;
-
       }
-      &-span1{
+      &-span1 {
         color: #0068b4;
         font-size: 14px;
         font-weight: 700;
@@ -213,18 +220,17 @@
         flex-direction: column;
         padding-right: 30px;
       }
-      &-span2{
+      &-span2 {
         font-size: 120px;
         line-height: 80px;
       }
-      &-span3{
+      &-span3 {
         display: flex;
         align-items: center;
         gap: 5px;
       }
-      &-span4{
+      &-span4 {
         font-size: 40px;
-        
       }
     }
   }
@@ -244,29 +250,29 @@
   @include media(800) {
     display: flex;
   }
+  span {
+    display: block;
+    height: 3px;
+    background: #666;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  &.active {
+    transition: all 0.8s ease;
+    right: 10px;
+    top: 10px;
+    position: fixed;
+
+    span:nth-child(1) {
+      transform: rotate(45deg) translateY(13px);
+    }
+    span:nth-child(2) {
+      opacity: 0;
+    }
+    span:nth-child(3) {
+      transform: rotate(-45deg) translateY(-13px);
+    }
+  }
 }
 
-.burger.active {
-  transition: all 0.8s ease;
-  right: 20px;
-  top: 20px;
-  position: fixed;
-}
-.burger.active span:nth-child(1) {
-  transform: rotate(45deg) translateY(13px);
-}
-
-.burger.active span:nth-child(2) {
-  opacity: 0;
-}
-
-.burger.active span:nth-child(3) {
-  transform: rotate(-45deg) translateY(-13px);
-}
-.burger span {
-  display: block;
-  height: 3px;
-  background: #666;
-  border-radius: 2px;
-  transition: all 0.3s ease;
-}

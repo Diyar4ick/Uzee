@@ -7,23 +7,31 @@ import youtube from "../../assets/images/youtube.svg";
 import search from "../../assets/images/search.svg";
 import logo from "../../assets/images/logo.png";
 import banner from "../../assets/images/banner.png";
-import { NavLink, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import banner2 from "../../assets/images/banner-2.jpg";
+import { NavLink } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 const Header = () => {
-  const navigate = useNavigate();
+  const bannerImages = [
+    banner,
+    banner2,
 
-  const [selectedPage, setSelectedPage] = useState("");
+  ]
+  const [index, setIndex] = useState(0)
+  const [activeMenu, setActiveMenu] = useState('');
+  const [burger, setBurger] = useState(false);
 
-  const pageChange = (e) => {
-    const value = e.target.value;
-    setSelectedPage("");
-    if (value !== "") {
-      navigate(value);
-    }
+   useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex(prev => (prev + 1) % bannerImages.length); 
+    }, 10000); // 2000 мс = 2 секунды
+
+    return () => clearInterval(timer); // очистка таймера
+  }, []);
+
+  const toggleMenu = (name) => {
+    setActiveMenu(activeMenu === name ? null : name);
   };
-
-  const [burger, setBurger] = useState(false)
 
   return (
     <header className="header">
@@ -63,102 +71,97 @@ const Header = () => {
       <div className="header__nav">
         <div className="container">
           <NavLink to="/">
-         
             <img src={logo} alt="" className="logo" />
           </NavLink>
-          <ul className={`header__nav-list ${burger ? 'active' : ''}`}>
-            <li className="header__nav-item">
-              <select
-                className="header_nav-select"
-                onChange={pageChange}
-                value={selectedPage}
-              >
-                <option value="" disabled hidden>
-                  Об организации ▾
-                </option>
-                <option value="/">Об организации</option>
-                <option value="/">История общества</option>
-                <option value="/">Деятельность общества</option>
-                <option value="/">Структура общества</option>
-                <option value="/">Руководство</option>
-                <option value="/">Отделы и филиалы</option>
-                <option value="/">Вакансии</option>
-                <option value="/">Лицензии и сертификаты</option>
-                <option value="/">Проекты</option>
-                <option value="/">Публичные мероприятия,</option>
-                <option value="/">организованные обществом</option>
-                <option value="/">Проводимые конкурсы (тендеры)</option>
-                <option value="/">
-                  Перечень продукции работ и услуг, и сведения о них
-                </option>
-              </select>
+          <ul className={`header__nav-list ${burger ? "active" : ""}`}>
+            <li className="header__nav-item" onClick={() => toggleMenu('about')}>
+              <button type="submit">Об организации ▾</button>
+              {activeMenu === 'about' && (
+                <ul className="header__nav-dropdown">
+                <li><a href="#">Об организации </a></li>
+                <li><a href="#">История общества </a></li>
+                <li><a href="#">Деятельность общества </a></li>
+                <li><a href="#">Структура общества </a></li>
+              </ul>
+              )}
             </li>
-            <li className="header__nav-item">
-              <select onChange={pageChange} value={selectedPage}>
-                <option value="" disabled hidden>
-                  Корпоративное управление ▾
-                </option>
-                <option value="/">Text</option>
-                <option value="/">Text</option>
-                <option value="/">Text</option>
-              </select>
+            <li className="header__nav-item" onClick={() => toggleMenu('corpotation')}>
+              <button type="submit">Корпоративное управление ▾</button>
+              {activeMenu === 'corpotation' && (
+                <ul className="header__nav-dropdown">
+                <li><a href="#">Существенные факты </a></li>
+                <li><a href="#">История общества </a></li>
+                <li><a href="#">Деятельность общества </a></li>
+                <li><a href="#">Структура общества </a></li>
+              </ul>
+              )}
             </li>
-            <li className="header__nav-item">
-              <select onChange={pageChange} value={selectedPage}>
-                <option value="" disabled hidden>
-                  Законодательство ▾
-                </option>
-                <option value="/">Text</option>
-                <option value="/">Text</option>
-                <option value="/">Text</option>
-                <option value="/">Text</option>
-              </select>
+            <li className="header__nav-item" onClick={() => toggleMenu('law')}>
+              <button type="submit">Законодательство ▾</button>
+              {activeMenu === 'law' && (
+                <ul className="header__nav-dropdown">
+                <li><a href="#">Уставы </a></li>
+                <li><a href="#">История общества </a></li>
+                <li><a href="#">Деятельность общества </a></li>
+                <li><a href="#">Структура общества </a></li>
+              </ul>
+              )}
             </li>
-            <li className="header__nav-item">
-              <select onChange={pageChange} value={selectedPage}>
-                <option value="" disabled hidden>
-                  Интерактивные услуги ▾
-                </option>
-                <option value="/">Text</option>
-                <option value="/">Text</option>
-                <option value="/">Text</option>
-              </select>
+            <li className="header__nav-item" onClick={() => toggleMenu('service')}>
+              <button type="submit">Интерактивные услуги ▾</button>
+              {activeMenu === 'service' && (
+                <ul className="header__nav-dropdown">
+                <li><a href="#">Виртуальная приёмная руководителя </a></li>
+                <li><a href="#">История общества </a></li>
+                <li><a href="#">Деятельность общества </a></li>
+                <li><a href="#">Структура общества </a></li>
+              </ul>
+              )}
             </li>
+       
 
             <li className="header__nav-item">
               <NavLink to="/contacts">Контакты</NavLink>
             </li>
-
           </ul>
-            <div className={`burger ${burger ? 'active' : ''}`} onClick={() => setBurger(!burger)}>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+          <div
+            className={`burger ${burger ? "active" : ""}`}
+            onClick={() => setBurger(!burger)}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
       <div className="header__banner">
         <div className="header__banner-first">
-        <img src={banner} alt="" className="header__banner-img" />
-        <div className="header__banner-black">
-        <div className="container">
-          <h1>Проектирование воздушных и кабельных линий напряжением до 500кВ <span>UZEE</span></h1>
-        </div>
-
-        </div>
+          <img src={bannerImages[index]} alt="" className="header__banner-img" />
+          <div className="header__banner-black">
+            <div className="container">
+              <h1>
+                Проектирование воздушных и кабельных линий напряжением до 500кВ{" "}
+                <span>UZEE</span>
+              </h1>
+            </div>
+          </div>
         </div>
         <div className="header__banner-second">
           <div className="container">
-
-          <p>
-            <span className="header__banner-second-span1">
-              <span className="header__banner-second-span2">30</span> 
-              <span className="header__banner-second-span3">
-                <span className="header__banner-second-span4">лет</span> успешной работы
+            <p>
+              <span className="header__banner-second-span1">
+                <span className="header__banner-second-span2">30</span>
+                <span className="header__banner-second-span3">
+                  <span className="header__banner-second-span4">лет</span>{" "}
+                  успешной работы
+                </span>
               </span>
-            
-            </span>
-            Электрическая подстанция – это установка, которая служит для преобразования и распределение энергии. В ее составе выделяют следующие конструктивные части: трансформаторы, распределительные устройства повышенного и пониженного напряжения, и вспомогательные устройства.</p>
+              Электрическая подстанция – это установка, которая служит для
+              преобразования и распределение энергии. В ее составе выделяют
+              следующие конструктивные части: трансформаторы, распределительные
+              устройства повышенного и пониженного напряжения, и вспомогательные
+              устройства.
+            </p>
           </div>
         </div>
       </div>
