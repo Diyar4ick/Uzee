@@ -180,10 +180,14 @@
           font-weight: 400;
           max-width: 600px;
           font-size: 36px;
+
+          @include media(450) {
+            font-size: 25px;
+          }
           span {
             display: block;
             font-weight: 700;
-            color: #ff6b00;
+            color: #0068b4;
             font-size: 36px;
           }
         }
@@ -204,6 +208,10 @@
     &-second {
       background: #222a31;
       padding: 30px 0;
+
+       @include media(480) {
+         padding: 20px 0;
+        }
       p {
         max-width: 700px;
         width: 100%;
@@ -211,6 +219,9 @@
         font-weight: 400;
         color: gray;
         display: flex;
+        @include media(480) {
+          font-size: 12px;
+        }
       }
       &-span1 {
         color: #0068b4;
@@ -219,18 +230,30 @@
         display: flex;
         flex-direction: column;
         padding-right: 30px;
+       
       }
       &-span2 {
         font-size: 120px;
         line-height: 80px;
+         @include media(480) {
+          font-size: 75px;
+          line-height: 60px;
+        }
       }
       &-span3 {
         display: flex;
         align-items: center;
         gap: 5px;
+        @include media(480) {
+         gap: 3px;
+         font-size: 11px;
+        }
       }
       &-span4 {
         font-size: 40px;
+        @include media(480) {
+          font-size: 20px;
+        }
       }
     }
   }
