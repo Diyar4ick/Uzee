@@ -32,6 +32,7 @@ const Header = () => {
   const toggleMenu = (name) => {
     setActiveMenu(activeMenu === name ? null : name);
   };
+  
 
   return (
     <header className="header">
@@ -78,7 +79,6 @@ const Header = () => {
               <button type="submit">Об организации ▾</button>
               {activeMenu === 'about' && (
                 <ul className="header__nav-dropdown">
-                <li><a href="#">Об организации </a></li>
                 <li><a href="#">История общества </a></li>
                 <li><a href="#">Деятельность общества </a></li>
                 <li><a href="#">Структура общества </a></li>
