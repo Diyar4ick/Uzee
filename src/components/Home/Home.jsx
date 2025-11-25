@@ -5,6 +5,8 @@ import lamp from "../../assets/images/lamp.svg";
 import news from "../../assets/images/news-img.jpg";
 import boxes from "../../assets/images/boxes.svg";
 import licenziya from "../../assets/images/licenziya_2019.jpg";
+import { useState } from "react";
+import LicenzModal from "../LicenzModal/LicenzModal";
 
 const Home = () => {
   const handleMouseMove = (e) => {
@@ -28,6 +30,15 @@ const Home = () => {
     card.style.transform =
       "perspective(600px) rotateX(0) rotateY(0)";
   };
+
+  const [modal, setModal] = useState(false)
+
+  const openModal = () => {
+    setModal(true)
+  }
+  const closeModal = () => {
+    setModal(false)
+  }
 
   return (
     <div className="home-page">
@@ -253,24 +264,10 @@ const Home = () => {
             onMouseLeave={handleMouseLeave}
           >
             <img src={licenziya} alt="" />
-            <button type="submit">+</button>
+            <button type="submit" onClick={() => openModal()}>+</button>
           </div>
-          <div
-            className="home-page__section5-card"
-            onMouseMove={handleMouseMove}
-            onMouseLeave={handleMouseLeave}
-          >
-            <img src={licenziya} alt="" />
-            <button type="submit">+</button>
-          </div>
-          <div
-            className="home-page__section5-card"
-            onMouseMove={handleMouseMove}
-            onMouseLeave={handleMouseLeave}
-          >
-            <img src={licenziya} alt="" />
-            <button type="submit">+</button>
-          </div>
+            {modal && <LicenzModal img={licenziya} close={closeModal}/>}
+          
         </div>
       </section>
     </div>

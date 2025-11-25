@@ -1,0 +1,27 @@
+.licenz-modal {
+  inset: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+
+  &__content {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    img {
+      max-width: 530px;
+      width: 100%;
+    }
+    button {
+        color: rgb(72, 72, 72);
+        font-size: 50px;
+        text-align: right;
+        padding-right: 10px;
+        cursor: zoom-out;
+    }
+  }
+}
