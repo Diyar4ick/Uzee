@@ -8,7 +8,7 @@ import search from "../../assets/images/search.svg";
 import logo from "../../assets/images/logo.png";
 // import banner from "../../assets/images/banner.png";
 // import banner2 from "../../assets/images/banner-2.jpg";
-import bannerVideo from '../../assets/videos/bannerVideo.mp4'
+import bannerVideo from '../../assets/videos/bannerVideoMP4'
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
