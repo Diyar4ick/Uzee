@@ -6,28 +6,29 @@ import whatsapp from "../../assets/images/whatsapp.svg";
 import youtube from "../../assets/images/youtube.svg";
 import search from "../../assets/images/search.svg";
 import logo from "../../assets/images/logo.png";
-import banner from "../../assets/images/banner.png";
-import banner2 from "../../assets/images/banner-2.jpg";
+// import banner from "../../assets/images/banner.png";
+// import banner2 from "../../assets/images/banner-2.jpg";
+import bannerVideo from '../../assets/videos/bannerVideo.mp4'
 import { NavLink } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Header = () => {
-  const bannerImages = [
-    banner,
-    banner2,
+  // const bannerImages = [
+  //   banner,
+  //   banner2,
 
-  ]
-  const [index, setIndex] = useState(0)
+  // ]
+  // const [index, setIndex] = useState(0)
   const [activeMenu, setActiveMenu] = useState('');
   const [burger, setBurger] = useState(false);
 
-   useEffect(() => {
-    const timer = setInterval(() => {
-      setIndex(prev => (prev + 1) % bannerImages.length); 
-    }, 10000); // 2000 мс = 2 секунды
+  //  useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setIndex(prev => (prev + 1) % bannerImages.length); 
+  //   }, 10000); // 2000 мс = 2 секунды
 
-    return () => clearInterval(timer); // очистка таймера
-  }, []);
+  //   return () => clearInterval(timer); // очистка таймера
+  // }, []);
 
   const toggleMenu = (name) => {
     setActiveMenu(activeMenu === name ? null : name);
@@ -136,7 +137,8 @@ const Header = () => {
       </div>
       <div className="header__banner">
         <div className="header__banner-first">
-          <img src={bannerImages[index]} alt="" className="header__banner-img" />
+          {/* <img src={bannerImages[index]} alt="" className="header__banner-img" /> */}
+          <video className="header__banner-video" src={bannerVideo} autoPlay loop muted playsInline></video>
           <div className="header__banner-black">
             <div className="container">
               <h1>
@@ -150,7 +152,7 @@ const Header = () => {
           <div className="container">
             <p>
               <span className="header__banner-second-span1">
-                <span className="header__banner-second-span2">30</span>
+                <span className="header__banner-second-span2">70</span>
                 <span className="header__banner-second-span3">
                   <span className="header__banner-second-span4">лет</span>{" "}
                   успешной работы

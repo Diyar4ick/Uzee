@@ -167,7 +167,7 @@
   &__banner {
     &-first {
       position: relative;
-      height: 50vh;
+      height: 75vh;
 
       .container {
         display: flex;
@@ -193,7 +193,7 @@
         }
       }
     }
-    &-img {
+    &-video {
       position: absolute;
       z-index: -999;
       height: 100%;
@@ -203,7 +203,7 @@
     &-black {
       width: 100%;
       height: 100%;
-      background: #00000063;
+      background: #00000027;
     }
     &-second {
       background: #222a31;
@@ -299,3 +299,4 @@
   }
 }
 
+ 
