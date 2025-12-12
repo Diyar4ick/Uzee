@@ -1,4 +1,5 @@
-import homePageIconImg from "../../assets/images/iconBanner.svg";
+import homePageIconImg from "../../assets/images/iconBanner-left.svg";
+import homePageIconImg2 from "../../assets/images/iconBanner-right.svg";
 import persons from "../../assets/images/person-2.svg";
 import statistics from "../../assets/images/statistics.svg";
 import lamp from "../../assets/images/lamp.svg";
@@ -9,8 +10,8 @@ import { useState } from "react";
 import LicenzModal from "../LicenzModal/LicenzModal";
 import homeBanner from "../../assets/images/homePageBanner.jpg";
 import homeSection2 from "../../assets/images/homePageSection2.jpg";
-import checkmark from "../../assets/images/checkmark.svg";
-import adventages from "../../assets/images/company-advantages.jpg";
+// import checkmark from "../../assets/images/checkmark.svg";
+// import adventages from "../../assets/images/company-advantages.jpg";
 import areasImg1 from "../../assets/images/homePageSection3-1.jpg";
 import areasImg2 from "../../assets/images/homePageSection3-2.jpg";
 import areasImg3 from "../../assets/images/homePageSection3-3.jpg";
@@ -82,123 +83,179 @@ const Home = () => {
               эффективность и надежность наших проектов.
             </p>
           </div>
-        </div> 
+        </div>
       </section>
       <section className="home-page__section2">
         <div className="container">
-          <img src={homeSection2} alt="" className="" />
           <div className="home-page__section2-content">
+            <h3 className="main-title">
+              МИССИЯ <span>КОМПАНИИ</span>
+            </h3>
+            <p className="home-page__section2-subtitle main-subtitle">
+              Наша миссия — предоставлять нашим клиентам высококачественные и надежные услуги, постоянно совершенствуя наши подходы и технологии. Мы стремимся оставаться надежным партнером для существующих клиентов и привлекать новых благодаря нашей приверженности к совершенству и инновациям. 
+
+            </p>
+          </div>
+        </div>
+        <img src={homePageIconImg2} alt="" className="iconBannerImg" />
+      </section>
+      <section className="home-page__section3">
+        <div className="container">
+          <img src={homeSection2} alt="" className="" />
+          <div className="home-page__section3-content">
             <h3 className="main-title">
               Что мы <span>делаем?</span>
             </h3>
             <p className="main-subtitle">
-              Мы предлагаем полный спектр инженерно-технических консультационных
-              услуг в области энергетики, охватывающий все этапы реализации
-              проектов.
+              Мы предлагаем полный спектр инженерных и технических
+              консультационных услуг в области энергетики, охватывающих все
+              этапы проекта.
             </p>
-            <ul className="home-page__section2-worklist">
-              <li className="home-page__section2-task">
-                <Link to="#" className="home-page__section2-work">
-                  01. ПРЕДПРОЕКТНЫЕ ИССЛЕДОВАНИЯ
+            <ul className="home-page__section3-worklist">
+              <li className="home-page__section3-task">
+                <Link to="/service-1" className="home-page__section3-work">
+                  01. ПРЕДВАРИТЕЛЬНЫЕ ПРОЕКТНЫЕ ИССЛЕДОВАНИЯ
                 </Link>
                 <ul>
                   <li>
-                    <p className="main-description">
-                      Исследования взаимосвязи электросетей
-                    </p>
+                    <span className="main-description">
+                      Исследования по подключению к энергосистеме
+                    </span>
                   </li>
                   <li>
-                    <p className="main-description">
+                    <span className="main-description">
                       Выбор и утверждение маршрутов
-                    </p>
+                    </span>
                   </li>
                   <li>
-                    <p className="main-description">
+                    <span className="main-description">
                       Оценка воздействия на окружающую среду и социальную сферу
-                    </p>
+                    </span>
                   </li>
                   <li>
-                    <p className="main-description">Инженерные изыскания</p>
+                    <span className="main-description">
+                      Инженерные изыскания
+                    </span>
                   </li>
                   <li>
-                    <p className="main-description">
+                    <span className="main-description">
                       Технико-экономическое обоснование, базовый проект и
                       тендерная документация.
-                    </p>
+                    </span>
                   </li>
                 </ul>
               </li>
-              <li className="home-page__section2-task">
-                <Link to="#" className="home-page__section2-work">
-                  02. ДЕТАЛИ ДЕТАЛЬНОГО ПРОЕКТИРОВАНИЯ
+              <li className="home-page__section3-task">
+                <Link to="/service-2" className="home-page__section3-work">
+                  02. ДЕТАЛЬНЫЕ ПРОЕКТНЫЕ РАБОТЫ
                 </Link>
                 <ul>
                   <li>
-                    <p className="main-description">
+                    <span className="main-description">
                       Детальное проектирование подстанций и линий
                       электропередачи
-                    </p>
-                    <p className="main-description">
+                    </span>
+                    <span className="main-description">
                       Адаптация и поддержка дизайна
-                    </p>
+                    </span>
                   </li>
                 </ul>
               </li>
-              <li className="home-page__section2-task">
-                <Link to="#" p className="home-page__section2-work">
-                  03. НАДЗОР ЗА ОБЪЕКТОМ
+              <li className="home-page__section3-task">
+                <Link to="/service-3" p className="home-page__section3-work">
+                  03. НАДЗОР ЗА СТРОИТЕЛЬСТВОМ
                 </Link>
                 <ul>
                   <li>
-                    <p className="main-description">
+                    <span className="main-description">
                       Проектирование/надзор за строительством
-                    </p>
-                    <p className="main-description">
+                    </span>
+                    <span className="main-description">
                       Услуги инженера-заказчика
-                    </p>
+                    </span>
                   </li>
                 </ul>
               </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section className="home-page__section3">
-        <div className="container">
-          <div className="home-page__section3-images">
-            <img src={areasImg1} alt="" />
-            <img src={areasImg2} alt="" />
-            <img src={areasImg3} alt="" />
-            <img src={areasImg4} alt="" />
-          </div>
-          <div className="home-page__section3-content">
-            <h3 className="main-title"><span>ОБЛАСТИ,</span>КОТОРЫЕ МЫ ОБСЛУЖИВАЕМ</h3>
-            <ul className="home-page__section3-list">
-              <li><button className="home-page__section3-btn">станции повышеения уровня</button></li>
-              <li><button className="home-page__section3-btn">СТАНЦИИ ПОНИЖЕНИЯ УРОВНЯ</button></li>
-              <li><button className="home-page__section3-btn">Воздушные и кабельные линии электропередачи</button></li>
-              <li><button className="home-page__section3-btn">ВОЗОБНОВЛЯЕМЫЕ ЭЛЕКТРОСТАНЦИИ</button></li>
-              <li><button className="home-page__section3-btn">ТЭС (тепловая электростанция)</button></li>
-              <li><button className="home-page__section3-btn">BESS (система хранения энергии в аккумуляторах)</button></li>
             </ul>
           </div>
         </div>
       </section>
       <section className="home-page__section4">
+        <div className="container">
+          <div className="home-page__section4-images">
+            <img src={areasImg1} alt="" />
+            <img src={areasImg2} alt="" />
+            <img src={areasImg3} alt="" />
+            <img src={areasImg4} alt="" />
+          </div>
+          <div className="home-page__section4-content">
+            <h3 className="main-title">
+              СФЕРЫ<span> В КОТОРЫХ МЫ РАБОТАЕМ</span>
+            </h3>
+            <ul className="home-page__section4-list">
+              <li>
+                <button className="home-page__section4-btn">
+                  подстанции повышающего типа
+                </button>
+              </li>
+              <li>
+                <button className="home-page__section4-btn">
+                  подстанции понижающего типа
+                </button>
+              </li>
+              <li>
+                <button className="home-page__section4-btn">
+                  Воздушные и кабельные линии передачи
+                </button>
+              </li>
+              <li>
+                <button className="home-page__section4-btn">
+                  {" "}
+                  ЭЛЕКТРОСТАНЦИИ на основе ВОЗОБНОВЛЯЕМЫх источников энергии
+                </button>
+              </li>
+              <li>
+                <button className="home-page__section4-btn">
+                  ТЭС (тепловая электростанция)
+                </button>
+              </li>
+              <li>
+                <button className="home-page__section4-btn">
+                  АСХЭ (Аккумуляторные станции хранения энергии)
+                </button>
+              </li>
+              <li>
+                <button className="home-page__section4-btn">
+                  ФЭС (Фотоэлектростанции)
+                </button>
+              </li>
+              <li>
+                <button className="home-page__section4-btn">
+                  ВЭС (ветряные электростанции)
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section className="home-page__section5">
+
+      </section> {/**/}
+      <section className="home-page__section6">
         <img
-          className="home-page__section4-backround"
+          className="home-page__section6-backround"
           src={homeBanner}
           alt=""
         />
         <div className="container">
-          <div className="home-page__section4-content">
-            <p className="home-page__section4-subtitle">
+          <div className="home-page__section6-content">
+            <p className="home-page__section6-subtitle">
               Ваш помощник в области Энергетики
             </p>
-            <h2 className="home-page__section4-title">
+            <h2 className="home-page__section6-title">
               Акционерное общество АО «O`ZENERGOINJINIRING»
             </h2>
-            <p className="home-page__section4-description">
+            <p className="home-page__section6-description">
               АО «O`ZENERGOINJINIRING» является специализированной организацией
               по проектированию объектов электроснабжения и электрификации всех
               потребителей, расположенных в сельской местности, городах и
@@ -207,8 +264,8 @@ const Home = () => {
               Республики Узбекистан.
             </p>
           </div>
-          <div className="home-page__section4-cards">
-            <div className="home-page__section4-card">
+          <div className="home-page__section6-cards">
+            <div className="home-page__section6-card">
               <img src={persons} alt="" />
               <h3>Участие</h3>
               <p>
@@ -218,14 +275,14 @@ const Home = () => {
                 Прогнозирование
               </p>
             </div>
-            <div className="home-page__section4-card">
+            <div className="home-page__section6-card">
               <img src={statistics} alt="" />
               <h3>Прогнозирование</h3>
               <p>
                 прогнозирование и оптимизация энергобалансов отраслей экономики
               </p>
             </div>
-            <div className="home-page__section4-card">
+            <div className="home-page__section6-card">
               <img src={lamp} alt="" />
               <h3>Участие</h3>
               <p>
@@ -237,15 +294,15 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="home-page__section5">
+      <section className="home-page__section7">
         <div className="container">
-          <h3 className="home-page__section5-title">
+          <h3 className="home-page__section7-title">
             Новости АО "Узэнергоинжиниринг"
           </h3>
-          <div className="home-page__section5-news">
-            <div className="home-page__section5-card">
+          <div className="home-page__section7-news">
+            <div className="home-page__section7-card">
               <img src={news} alt="" />
-              <div className="home-page__section5-content">
+              <div className="home-page__section7-content">
                 <span>
                   <svg
                     width="84"
@@ -268,9 +325,9 @@ const Home = () => {
                 </h4>
               </div>
             </div>
-            <div className="home-page__section5-card">
+            <div className="home-page__section7-card">
               <img src={news} alt="" />
-              <div className="home-page__section5-content">
+              <div className="home-page__section7-content">
                 <span>
                   <svg
                     width="84"
@@ -293,9 +350,9 @@ const Home = () => {
                 </h4>
               </div>
             </div>
-            <div className="home-page__section5-card">
+            <div className="home-page__section7-card">
               <img src={news} alt="" />
-              <div className="home-page__section5-content">
+              <div className="home-page__section7-content">
                 <span>
                   <svg
                     width="84"
@@ -321,7 +378,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="home-page__section6">
+      {/* <section className="home-page__section6">
         <div className="container">
           <div className="home-page__section6-content">
             <h3 className="main-title">
@@ -371,12 +428,12 @@ const Home = () => {
           </div>
           <img src={adventages} alt="" className="home-page__section6-adv" />
         </div>
-      </section>
-      <section className="home-page__section7">
+      </section> */}
+      <section className="home-page__section8">
         <div className="container">
-          <h3 className="home-page__section7-title">НАШИ ПРЕИМУЩЕСТВА</h3>
-          <div className="home-page__section7-content">
-            <div className="home-page__section7-card">
+          <h3 className="home-page__section8-title">НАШИ ПРЕИМУЩЕСТВА</h3>
+          <div className="home-page__section8-content">
+            <div className="home-page__section8-card">
               <img src={boxes} alt="" />
               <div className="">
                 <h4>Проект с учетом современных технологий строительства</h4>
@@ -389,7 +446,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="home-page__section7-card">
+            <div className="home-page__section8-card">
               <img src={boxes} alt="" />
               <div className="">
                 <h4>Проект с учетом современных технологий строительства</h4>
@@ -402,7 +459,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="home-page__section7-card">
+            <div className="home-page__section8-card">
               <img src={boxes} alt="" />
               <div className="">
                 <h4>Проект с учетом современных технологий строительства</h4>
@@ -415,7 +472,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="home-page__section7-card">
+            <div className="home-page__section8-card">
               <img src={boxes} alt="" />
               <div className="">
                 <h4>Проект с учетом современных технологий строительства</h4>
@@ -431,13 +488,13 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="home-page__section8">
-        <h3 className="home-page__section8-title">
+      <section className="home-page__section9">
+        <h3 className="home-page__section9-title">
           Наши лицензии и сертификаты
         </h3>
-        <div className="home-page__section8-content">
+        <div className="home-page__section9-content">
           <div
-            className="home-page__section8-card"
+            className="home-page__section9-card"
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
           >

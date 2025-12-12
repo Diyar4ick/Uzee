@@ -80,6 +80,7 @@ const Header = () => {
               <button type="submit">Об организации ▾</button>
               {activeMenu === 'about' && (
                 <ul className="header__nav-dropdown">
+                <li><NavLink to="/">Об организации </NavLink></li>
                 <li><a href="#">История общества </a></li>
                 <li><a href="#">Деятельность общества </a></li>
                 <li><a href="#">Структура общества </a></li>
