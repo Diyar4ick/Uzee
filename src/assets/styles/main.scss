@@ -69,6 +69,14 @@
 .iconBannerImg {
   max-width: 300px;
 }
+
+.bold {
+  font-weight: 700;
+}
+.enter {
+  display: block;
+  padding: 10px;
+}
 // 0068b4
 
 @import url(../../components/Header/Header.scss);

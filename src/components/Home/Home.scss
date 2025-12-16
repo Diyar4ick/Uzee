@@ -241,6 +241,71 @@
       }
     }
   }
+  &__section5 {
+    display: flex;
+    .iconBannerImg {
+      @include media(700) {
+        display: none;
+      }
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      h3 {
+        max-width: 400px;
+        @include media(700) {
+          margin: 0 auto;
+        }
+      }
+    }
+    &-timeline {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 30px;
+    }
+    &-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 20px;
+      &-img {
+        display: flex;
+      }
+      &-content {
+        max-width: 300px;
+        width: 100%;
+        padding: 10px;
+        border: solid 2px #f5a623;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p {
+          text-align: center;
+          font-size: 18px;
+        }
+      }
+    }
+    &-time {
+      display: flex;
+      position: relative;
+      width: 180px;
+      height: 80px;
+      align-items: center;
+      justify-content: center;
+      p {
+        font-size: 30px;
+        font-weight: 400;
+      }
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
   &__section6 {
     height: 370px;
     position: relative;
@@ -411,6 +476,56 @@
     }
   }
   &__section8 {
+    h3 {
+      display: flex;
+      flex-direction: column;
+      @include media(1160) {
+        text-align: center;
+      }
+    }
+    &-content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      @include media(1160) {
+        justify-content: center;
+        gap: 30px;
+      }
+    }
+    &-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      @include media(600) {
+        align-items: center;
+      }
+      img {
+        max-width: 550px;
+        @include media(600) {
+          max-width: 350px;
+        }
+      }
+      p {
+        font-weight: 500;
+        font-size: 21px;
+        max-width: 500px;
+        text-align: center;
+        padding-top: 20px;
+        text-decoration: underline;
+      }
+    }
+
+    &-footer {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+      p {
+        font-weight: 700;
+      }
+    }
+  }
+  &__section9 {
     &-title {
       font-weight: 700;
       font-size: 24px;
@@ -447,7 +562,7 @@
       justify-content: center;
     }
   }
-  &__section9 {
+  &__section10 {
     &-title {
       font-weight: 700;
       font-size: 24px;

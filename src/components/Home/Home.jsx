@@ -17,6 +17,15 @@ import areasImg2 from "../../assets/images/homePageSection3-2.jpg";
 import areasImg3 from "../../assets/images/homePageSection3-3.jpg";
 import areasImg4 from "../../assets/images/homePageSection3-4.jpg";
 
+import arrowYel from '../../assets/images/arrow-yellow.svg'
+import arrowBlue from '../../assets/images/arrow-blue.svg'
+import arrowGreen from '../../assets/images/arrow-green.svg'
+
+import expImg1 from '../../assets/images/expImg1.jpg'
+import expImg2 from '../../assets/images/expImg2.jpg'
+
+import icon from '../../assets/images/service-icon10.jpg'
+
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -92,8 +101,11 @@ const Home = () => {
               МИССИЯ <span>КОМПАНИИ</span>
             </h3>
             <p className="home-page__section2-subtitle main-subtitle">
-              Наша миссия — предоставлять нашим клиентам высококачественные и надежные услуги, постоянно совершенствуя наши подходы и технологии. Мы стремимся оставаться надежным партнером для существующих клиентов и привлекать новых благодаря нашей приверженности к совершенству и инновациям. 
-
+              Наша миссия — предоставлять нашим клиентам высококачественные и
+              надежные услуги, постоянно совершенствуя наши подходы и
+              технологии. Мы стремимся оставаться надежным партнером для
+              существующих клиентов и привлекать новых благодаря нашей
+              приверженности к совершенству и инновациям.
             </p>
           </div>
         </div>
@@ -239,8 +251,54 @@ const Home = () => {
         </div>
       </section>
       <section className="home-page__section5">
-
-      </section> {/**/}
+        <img src={homePageIconImg} alt="" className="iconBannerImg" />
+        <div className="container">
+          <h3 className="main-title">
+            Наша <span>ИСТОРИЧЕСКАЯ ХРОНОЛОГИЯ</span>
+          </h3>
+          <div className="home-page__section5-timeline">
+            <div className="home-page__section5-box">
+              <span className="home-page__section5-box-img">
+                <div class="home-page__section5-time"><img src={arrowYel} alt="" /><p>1956</p></div> 
+                <div class="home-page__section5-time"><img src={arrowYel} alt="" /><p>1990</p></div>
+              </span>
+              <div className="home-page__section5-box-content">
+                <p>
+                  <span className="bold">1956 г.</span> — основан как инженерная база для распределительных сетей в Центральной Азии. 
+                  <span className="enter"></span>
+                  <span className="bold">1990-е годы</span> — расширение услуг для передающих сетей до 500 кВ. 
+                </p>
+              </div>
+            </div>
+            <div className="home-page__section5-box">
+              <span className="home-page__section5-box-img">
+                <div class="home-page__section5-time"><img src={arrowYel} alt="" /><p>1992</p></div>
+                <div class="home-page__section5-time"><img src={arrowYel} alt="" /><p>2002</p></div>
+              </span>
+              <div className="home-page__section5-box-content">
+                 <p>
+                  <span className="bold">1992 г.</span> — вошла в состав Министерства энергетики Узбекистана. 
+                  <span className="enter"></span>
+                  <span className="bold">2002 г.</span> — преобразовано в акционерное общество.  
+                </p>
+              </div>
+            </div>
+            <div className="home-page__section5-box">
+              <span className="home-page__section5-box-img">
+                <div class="home-page__section5-time"><img src={arrowBlue} alt="" /><p>2019</p></div>
+                <div class="home-page__section5-time"><img src={arrowGreen} alt="" /><p>Now</p></div>
+              </span>
+              <div className="home-page__section5-box-content">
+                <p>
+                  <span className="bold">2019 г.</span> — переименовано в «Узенергоинженеринг» указом Президента Узбекистана. 
+                  <span className="enter"></span>
+                  <span className="bold">С 2024 года</span> — входит в состав UET Group, крупной промышленной группы в Узбекистане. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="home-page__section6">
         <img
           className="home-page__section6-backround"
@@ -431,9 +489,28 @@ const Home = () => {
       </section> */}
       <section className="home-page__section8">
         <div className="container">
-          <h3 className="home-page__section8-title">НАШИ ПРЕИМУЩЕСТВА</h3>
-          <div className="home-page__section8-content">
-            <div className="home-page__section8-card">
+        <h3 className="main-title"><span>НАШ</span> ОПЫТ И КОМПЕТЕНЦИЯ</h3>
+        <div className="home-page__section8-content">
+          <div className="home-page__section8-box">
+            <img src={expImg1} alt="" />
+            <p>АКТУАЛЬНАЯ И ТОЧНАЯ МОДЕЛЬ СЕТИ В DIGSILENT ®</p>
+          </div>
+          <div className="home-page__section8-box">
+            <img src={expImg2} alt="" />
+            <p>ЗНАНИЯ О СИСТЕМЕ ЭНЕРГЕТИКИ, ВКЛЮЧАЯ ЭЛЕКТРОСЕТИ</p>
+          </div>
+        </div>
+        <div className="home-page__section8-footer">
+          <img src={icon} alt="" />
+          <p>UZEE С 1956 года</p>
+        </div>
+        </div>
+      </section>
+      <section className="home-page__section9">
+        <div className="container">
+          <h3 className="home-page__section9-title">НАШИ ПРЕИМУЩЕСТВА</h3>
+          <div className="home-page__section9-content">
+            <div className="home-page__section9-card">
               <img src={boxes} alt="" />
               <div className="">
                 <h4>Проект с учетом современных технологий строительства</h4>
@@ -446,7 +523,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="home-page__section8-card">
+            <div className="home-page__section9-card">
               <img src={boxes} alt="" />
               <div className="">
                 <h4>Проект с учетом современных технологий строительства</h4>
@@ -459,7 +536,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="home-page__section8-card">
+            <div className="home-page__section9-card">
               <img src={boxes} alt="" />
               <div className="">
                 <h4>Проект с учетом современных технологий строительства</h4>
@@ -472,7 +549,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="home-page__section8-card">
+            <div className="home-page__section9-card">
               <img src={boxes} alt="" />
               <div className="">
                 <h4>Проект с учетом современных технологий строительства</h4>
@@ -488,13 +565,13 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="home-page__section9">
-        <h3 className="home-page__section9-title">
+      <section className="home-page__section10">
+        <h3 className="home-page__section10-title">
           Наши лицензии и сертификаты
         </h3>
-        <div className="home-page__section9-content">
+        <div className="home-page__section10-content">
           <div
-            className="home-page__section9-card"
+            className="home-page__section10-card"
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
           >
