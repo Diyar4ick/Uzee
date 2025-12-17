@@ -17,14 +17,17 @@ import areasImg2 from "../../assets/images/homePageSection3-2.jpg";
 import areasImg3 from "../../assets/images/homePageSection3-3.jpg";
 import areasImg4 from "../../assets/images/homePageSection3-4.jpg";
 
-import arrowYel from '../../assets/images/arrow-yellow.svg'
-import arrowBlue from '../../assets/images/arrow-blue.svg'
-import arrowGreen from '../../assets/images/arrow-green.svg'
+import arrowYel from "../../assets/images/arrow-yellow.svg";
+import arrowBlue from "../../assets/images/arrow-blue.svg";
+import arrowGreen from "../../assets/images/arrow-green.svg";
 
-import expImg1 from '../../assets/images/expImg1.jpg'
-import expImg2 from '../../assets/images/expImg2.jpg'
+import expImg1 from "../../assets/images/expImg1.jpg";
+import expImg2 from "../../assets/images/expImg2.jpg";
 
-import icon from '../../assets/images/service-icon10.jpg'
+import icon from "../../assets/images/service-icon10.jpg";
+
+import map from "../../assets/images/uzbMap.png";
+import cyrcle from "../../assets/images/cyrcle.svg";
 
 import { Link } from "react-router-dom";
 
@@ -259,40 +262,64 @@ const Home = () => {
           <div className="home-page__section5-timeline">
             <div className="home-page__section5-box">
               <span className="home-page__section5-box-img">
-                <div class="home-page__section5-time"><img src={arrowYel} alt="" /><p>1956</p></div> 
-                <div class="home-page__section5-time"><img src={arrowYel} alt="" /><p>1990</p></div>
+                <div class="home-page__section5-time">
+                  <img src={arrowYel} alt="" />
+                  <p>1956</p>
+                </div>
+                <div class="home-page__section5-time">
+                  <img src={arrowYel} alt="" />
+                  <p>1990</p>
+                </div>
               </span>
               <div className="home-page__section5-box-content">
                 <p>
-                  <span className="bold">1956 г.</span> — основан как инженерная база для распределительных сетей в Центральной Азии. 
+                  <span className="bold">1956 г.</span> — основан как инженерная
+                  база для распределительных сетей в Центральной Азии.
                   <span className="enter"></span>
-                  <span className="bold">1990-е годы</span> — расширение услуг для передающих сетей до 500 кВ. 
+                  <span className="bold">1990-е годы</span> — расширение услуг
+                  для передающих сетей до 500 кВ.
                 </p>
               </div>
             </div>
             <div className="home-page__section5-box">
               <span className="home-page__section5-box-img">
-                <div class="home-page__section5-time"><img src={arrowYel} alt="" /><p>1992</p></div>
-                <div class="home-page__section5-time"><img src={arrowYel} alt="" /><p>2002</p></div>
+                <div class="home-page__section5-time">
+                  <img src={arrowYel} alt="" />
+                  <p>1992</p>
+                </div>
+                <div class="home-page__section5-time">
+                  <img src={arrowYel} alt="" />
+                  <p>2002</p>
+                </div>
               </span>
               <div className="home-page__section5-box-content">
-                 <p>
-                  <span className="bold">1992 г.</span> — вошла в состав Министерства энергетики Узбекистана. 
+                <p>
+                  <span className="bold">1992 г.</span> — вошла в состав
+                  Министерства энергетики Узбекистана.
                   <span className="enter"></span>
-                  <span className="bold">2002 г.</span> — преобразовано в акционерное общество.  
+                  <span className="bold">2002 г.</span> — преобразовано в
+                  акционерное общество.
                 </p>
               </div>
             </div>
             <div className="home-page__section5-box">
               <span className="home-page__section5-box-img">
-                <div class="home-page__section5-time"><img src={arrowBlue} alt="" /><p>2019</p></div>
-                <div class="home-page__section5-time"><img src={arrowGreen} alt="" /><p>Now</p></div>
+                <div class="home-page__section5-time">
+                  <img src={arrowBlue} alt="" />
+                  <p>2019</p>
+                </div>
+                <div class="home-page__section5-time">
+                  <img src={arrowGreen} alt="" />
+                  <p>Now</p>
+                </div>
               </span>
               <div className="home-page__section5-box-content">
                 <p>
-                  <span className="bold">2019 г.</span> — переименовано в «Узенергоинженеринг» указом Президента Узбекистана. 
+                  <span className="bold">2019 г.</span> — переименовано в
+                  «Узенергоинженеринг» указом Президента Узбекистана.
                   <span className="enter"></span>
-                  <span className="bold">С 2024 года</span> — входит в состав UET Group, крупной промышленной группы в Узбекистане. 
+                  <span className="bold">С 2024 года</span> — входит в состав
+                  UET Group, крупной промышленной группы в Узбекистане.
                 </p>
               </div>
             </div>
@@ -489,89 +516,112 @@ const Home = () => {
       </section> */}
       <section className="home-page__section8">
         <div className="container">
-        <h3 className="main-title"><span>НАШ</span> ОПЫТ И КОМПЕТЕНЦИЯ</h3>
-        <div className="home-page__section8-content">
-          <div className="home-page__section8-box">
-            <img src={expImg1} alt="" />
-            <p>АКТУАЛЬНАЯ И ТОЧНАЯ МОДЕЛЬ СЕТИ В DIGSILENT ®</p>
+          <h3 className="main-title">
+            <span>НАШ</span> ОПЫТ И КОМПЕТЕНЦИЯ
+          </h3>
+          <div className="home-page__section8-content">
+            <div className="home-page__section8-box">
+              <img src={expImg1} alt="" />
+              <p>АКТУАЛЬНАЯ И ТОЧНАЯ МОДЕЛЬ СЕТИ В DIGSILENT ®</p>
+            </div>
+            <div className="home-page__section8-box">
+              <img src={expImg2} alt="" />
+              <p>ЗНАНИЯ О СИСТЕМЕ ЭНЕРГЕТИКИ, ВКЛЮЧАЯ ЭЛЕКТРОСЕТИ</p>
+            </div>
           </div>
-          <div className="home-page__section8-box">
-            <img src={expImg2} alt="" />
-            <p>ЗНАНИЯ О СИСТЕМЕ ЭНЕРГЕТИКИ, ВКЛЮЧАЯ ЭЛЕКТРОСЕТИ</p>
+          <div className="home-page__section8-footer">
+            <img src={icon} alt="" />
+            <p>UZEE С 1956 года</p>
           </div>
-        </div>
-        <div className="home-page__section8-footer">
-          <img src={icon} alt="" />
-          <p>UZEE С 1956 года</p>
-        </div>
         </div>
       </section>
       <section className="home-page__section9">
-        <div className="container">
-          <h3 className="home-page__section9-title">НАШИ ПРЕИМУЩЕСТВА</h3>
-          <div className="home-page__section9-content">
-            <div className="home-page__section9-card">
-              <img src={boxes} alt="" />
-              <div className="">
-                <h4>Проект с учетом современных технологий строительства</h4>
-                <p>
-                  Проекты сделанные нашей командой специалистов позволяет
-                  сократить время строительства, за счет использования
-                  современных способ монтажа, материалов и технологий,
-                  используемые материалы доступны по стоимости и имеются в
-                  свободной продаже.{" "}
-                </p>
-              </div>
+        <img src={homePageIconImg} alt="" className="iconBannerImg" />
+        <h3 className="main-title">Наш <span>опыт</span></h3>
+        <div className="home-page__section9-map">
+          <img src={map} alt="" className="home-page__section9-map-img"/>
+          <div className="home-page__section9-map-cards">
+            <div className="home-page__section9-map-amount1">
+              <h5><img src={cyrcle} alt="" />3123</h5>
+              <p>Реализованные проекты 2019-2023</p>
             </div>
-            <div className="home-page__section9-card">
-              <img src={boxes} alt="" />
-              <div className="">
-                <h4>Проект с учетом современных технологий строительства</h4>
-                <p>
-                  Проекты сделанные нашей командой специалистов позволяет
-                  сократить время строительства, за счет использования
-                  современных способ монтажа, материалов и технологий,
-                  используемые материалы доступны по стоимости и имеются в
-                  свободной продаже.{" "}
-                </p>
-              </div>
+            <div className="home-page__section9-map-amount2">
+              <h5><img src={cyrcle} alt="" />72</h5>
+              <p>Проекты в 2025 году</p>
             </div>
-            <div className="home-page__section9-card">
-              <img src={boxes} alt="" />
-              <div className="">
-                <h4>Проект с учетом современных технологий строительства</h4>
-                <p>
-                  Проекты сделанные нашей командой специалистов позволяет
-                  сократить время строительства, за счет использования
-                  современных способ монтажа, материалов и технологий,
-                  используемые материалы доступны по стоимости и имеются в
-                  свободной продаже.{" "}
-                </p>
-              </div>
-            </div>
-            <div className="home-page__section9-card">
-              <img src={boxes} alt="" />
-              <div className="">
-                <h4>Проект с учетом современных технологий строительства</h4>
-                <p>
-                  Проекты сделанные нашей командой специалистов позволяет
-                  сократить время строительства, за счет использования
-                  современных способ монтажа, материалов и технологий,
-                  используемые материалы доступны по стоимости и имеются в
-                  свободной продаже.{" "}
-                </p>
-              </div>
+            <div className="home-page__section9-map-amount3">
+              <h5><img src={cyrcle} alt="" />7</h5>
+              <p>Проекты в области возобновляемой энергетики в 2024 году</p>
             </div>
           </div>
         </div>
       </section>
       <section className="home-page__section10">
-        <h3 className="home-page__section10-title">
+        <div className="container">
+          <h3 className="home-page__section10-title">НАШИ ПРЕИМУЩЕСТВА</h3>
+          <div className="home-page__section10-content">
+            <div className="home-page__section10-card">
+              <img src={boxes} alt="" />
+              <div className="">
+                <h4>Проект с учетом современных технологий строительства</h4>
+                <p>
+                  Проекты сделанные нашей командой специалистов позволяет
+                  сократить время строительства, за счет использования
+                  современных способ монтажа, материалов и технологий,
+                  используемые материалы доступны по стоимости и имеются в
+                  свободной продаже.{" "}
+                </p>
+              </div>
+            </div>
+            <div className="home-page__section10-card">
+              <img src={boxes} alt="" />
+              <div className="">
+                <h4>Проект с учетом современных технологий строительства</h4>
+                <p>
+                  Проекты сделанные нашей командой специалистов позволяет
+                  сократить время строительства, за счет использования
+                  современных способ монтажа, материалов и технологий,
+                  используемые материалы доступны по стоимости и имеются в
+                  свободной продаже.{" "}
+                </p>
+              </div>
+            </div>
+            <div className="home-page__section10-card">
+              <img src={boxes} alt="" />
+              <div className="">
+                <h4>Проект с учетом современных технологий строительства</h4>
+                <p>
+                  Проекты сделанные нашей командой специалистов позволяет
+                  сократить время строительства, за счет использования
+                  современных способ монтажа, материалов и технологий,
+                  используемые материалы доступны по стоимости и имеются в
+                  свободной продаже.{" "}
+                </p>
+              </div>
+            </div>
+            <div className="home-page__section10-card">
+              <img src={boxes} alt="" />
+              <div className="">
+                <h4>Проект с учетом современных технологий строительства</h4>
+                <p>
+                  Проекты сделанные нашей командой специалистов позволяет
+                  сократить время строительства, за счет использования
+                  современных способ монтажа, материалов и технологий,
+                  используемые материалы доступны по стоимости и имеются в
+                  свободной продаже.{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="home-page__section11">
+        <h3 className="home-page__section11-title">
           Наши лицензии и сертификаты
         </h3>
-        <div className="home-page__section10-content">
+        <div className="home-page__section11-content">
           <div
-            className="home-page__section10-card"
+            className="home-page__section11-card"
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
           >
