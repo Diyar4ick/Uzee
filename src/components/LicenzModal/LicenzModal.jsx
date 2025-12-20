@@ -10,3 +10,4 @@ const LicenzModal = ({ img, close }) => {
 };
 
 export default LicenzModal;
+ 

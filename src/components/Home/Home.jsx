@@ -5,7 +5,6 @@ import statistics from "../../assets/images/statistics.svg";
 import lamp from "../../assets/images/lamp.svg";
 import news from "../../assets/images/news-img.jpg";
 import boxes from "../../assets/images/boxes.svg";
-import licenziya from "../../assets/images/licenziya_2019.jpg";
 import { useState } from "react";
 import LicenzModal from "../LicenzModal/LicenzModal";
 import homeBanner from "../../assets/images/homePageBanner.jpg";
@@ -29,9 +28,47 @@ import icon from "../../assets/images/service-icon10.jpg";
 import map from "../../assets/images/uzbMap.png";
 import cyrcle from "../../assets/images/cyrcle.svg";
 
+import sertIcon from "../../assets/images/service-icon11.jpg";
+
+import sert1 from "../../assets/images/sert1.jpg";
+import sert2 from "../../assets/images/sert2.jpg";
+import sert22 from "../../assets/images/sert2-2.jpg";
+import sert3 from "../../assets/images/sert3.jpg";
+// import sert32 from "../../assets/images/sert3-2.jpg";
+import sert4 from "../../assets/images/sert4.jpg";
+// import sert42 from "../../assets/images/sert4-2.jpg";
+import sert5 from "../../assets/images/sert5.jpg";
+import sert52 from "../../assets/images/sert5-2.jpg";
+import sert6 from "../../assets/images/sert6.jpg";
+
+import logo2 from "../../assets/images/logo2.jpg";
+
+import companyIcon1 from "../../assets/images/company-icon1.jpg";
+import companyIcon2 from "../../assets/images/company-icon2.jpg";
+import companyIcon3 from "../../assets/images/company-icon3.jpg";
+import companyIcon4 from "../../assets/images/company-icon4.jpg";
+import companyIcon5 from "../../assets/images/company-icon5.jpg";
+import companyIcon6 from "../../assets/images/company-icon6.jpg";
+import companyIcon7 from "../../assets/images/company-icon7.jpg";
+import companyIcon8 from "../../assets/images/company-icon8.jpg";
+import companyIcon9 from "../../assets/images/company-icon9.jpg";
+import companyIcon10 from "../../assets/images/company-icon10.jpg";
+import companyIcon11 from "../../assets/images/company-icon11.jpg";
+import companyBanner from '../../assets/images/company-banner.jpg'
+
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  const licenzImages = [
+    sert2,
+    sert22,
+    sert1,
+    sert4,
+    sert6,
+    sert3,
+    sert5,
+    sert52,
+  ];
   const handleMouseMove = (e) => {
     const card = e.currentTarget;
     const rect = card.getBoundingClientRect();
@@ -46,15 +83,13 @@ const Home = () => {
 
     card.style.transform = `perspective(600px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
   };
-
   const handleMouseLeave = (e) => {
     const card = e.currentTarget;
 
     card.style.transform = "perspective(600px) rotateX(0) rotateY(0)";
   };
-
   const [modal, setModal] = useState(false);
-
+  const [imgIdx, setImgIdx] = useState(null);
   const openModal = () => {
     setModal(true);
   };
@@ -380,14 +415,111 @@ const Home = () => {
         </div>
       </section>
       <section className="home-page__section7">
+        <div className="home-page__section7-nav">
+          <h3 className="main-title">
+            ПРОЕКТНОЕ <span>ДИЗАЙНИРОВАНИЕ</span>
+          </h3>
+          <img src={logo2} alt="" className="logo-2" />
+        </div>
+        <img src={companyBanner} alt="" className="home-page__section7-banner"/>
         <div className="container">
-          <h3 className="home-page__section7-title">
+          <div className="home-page__section7-content">
+            <div className="home-page__section7-card">
+              <p>Модернизация 8 подстанций 110 кВ-35 (CHINT)</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon1} alt="" />
+                <img src={companyIcon10} alt="" />
+              </div>
+            </div>
+            <div className="home-page__section7-card">
+              <p>Строительство новой подстанции 220/35 кВ «Янги-Ташкент-1»</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon6} alt="" />
+              </div>
+            </div>
+            <div className="home-page__section7-card">
+              <p>МОДЕРНИЗАЦИЯ подстанций в соответствии с ПП 91 от 11.03.2023 и DCM 259 от 26.</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon8} alt="" />
+              </div>
+            </div>
+            <div className="home-page__section7-card">
+              <p>МОДЕРНИЗАЦИЯ ПОДСТАНЦИЙ 35КВ–110КВ И ВОЗДУШНЫХ ЛИНИЙ ЭЛЕКТРОПЕРЕДАЧ ПОД УПРАВЛЕНИЕМ ПК В 2025–2026 ГОДАХ</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon8} alt="" />
+                <img src={companyIcon9} alt="" />
+              </div>
+            </div>
+            <div className="home-page__section7-card">
+              <p>Строительство солнечной фотоэлектрической электростанции Tutli-2 мощностью 65 МВт</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon2} alt="" />
+              </div>
+            </div>
+            <div className="home-page__section7-card">
+              <p>Строительство солнечной фотоэлектрической электростанции Tutli-2 мощностью 65 МВт</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon3} alt="" />
+                <img src={companyIcon4} alt="" />
+              </div>
+            </div>
+            <div className="home-page__section7-card">
+              <p>«Строительство аккумулирующей электростанции Сергели мощностью 150 МВт / 300 МВтч с реконструкцией наружного распределительного устройства 220/110 кВ подстанции Сергели»</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon11} alt="" />
+              </div>
+            </div>
+            <div className="home-page__section7-card">
+              <p>Строительство гибридной электростанции в Navoi (300 МВт СЭС, 150 МВт/300 БЭСС)</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon7} alt="" />
+              </div>
+            </div>
+            <div className="home-page__section7-card">
+              <p>ТЭО проекта «Строительство подстанции 500 кВ Кольцевая и двух воздушных линий электропередачи 500 кВ (LILO)»</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon9} alt="" />
+              </div>
+            </div>
+            <div className="home-page__section7-card">
+              <p>Строительство парогазовой электростанции мощностью 1600 МВт в Сурхандарьинской области. Подстанция 500/220/10,5 кВ.</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon5} alt="" />
+              </div>
+            </div>
+            <div className="home-page__section7-card">
+              <p>Строительство системы хранения энергии Adolat & Chirchiq мощностью 100 МВт/200 МВтч</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon7} alt="" />
+              </div>
+            </div>
+            <div className="home-page__section7-card">
+              <p>Строительство системы хранения энергии Adolat & Chirchiq мощностью 100 МВт/200 МВтч</p>
+            </div>
+            <div className="home-page__section7-card">
+              <p>Строительство систем накопления энергии Ahangaran, Kizilravat, Obi Hayot и Hakan мощностью 100 МВт/200 МВтч каждая</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon7} alt="" />
+              </div>
+            </div>
+            <div className="home-page__section7-card">
+              <p>ТЭО проекта «Воздушная линия электропередачи 500 кВ от подстанции Каракуль 500/220/10 кВ до подстанции Нурабад 500/220/10 кВ»</p>
+              <div className="home-page__section7-logos">
+                <img src={companyIcon9} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="home-page__section8">
+        <div className="container">
+          <h3 className="home-page__section8-title">
             Новости АО "Узэнергоинжиниринг"
           </h3>
-          <div className="home-page__section7-news">
-            <div className="home-page__section7-card">
+          <div className="home-page__section8-news">
+            <div className="home-page__section8-card">
               <img src={news} alt="" />
-              <div className="home-page__section7-content">
+              <div className="home-page__section8-content">
                 <span>
                   <svg
                     width="84"
@@ -410,9 +542,9 @@ const Home = () => {
                 </h4>
               </div>
             </div>
-            <div className="home-page__section7-card">
+            <div className="home-page__section8-card">
               <img src={news} alt="" />
-              <div className="home-page__section7-content">
+              <div className="home-page__section8-content">
                 <span>
                   <svg
                     width="84"
@@ -435,9 +567,9 @@ const Home = () => {
                 </h4>
               </div>
             </div>
-            <div className="home-page__section7-card">
+            <div className="home-page__section8-card">
               <img src={news} alt="" />
-              <div className="home-page__section7-content">
+              <div className="home-page__section8-content">
                 <span>
                   <svg
                     width="84"
@@ -514,53 +646,102 @@ const Home = () => {
           <img src={adventages} alt="" className="home-page__section6-adv" />
         </div>
       </section> */}
-      <section className="home-page__section8">
+      <section className="home-page__section9">
         <div className="container">
           <h3 className="main-title">
             <span>НАШ</span> ОПЫТ И КОМПЕТЕНЦИЯ
           </h3>
-          <div className="home-page__section8-content">
-            <div className="home-page__section8-box">
+          <div className="home-page__section9-content">
+            <div className="home-page__section9-box">
               <img src={expImg1} alt="" />
               <p>АКТУАЛЬНАЯ И ТОЧНАЯ МОДЕЛЬ СЕТИ В DIGSILENT ®</p>
             </div>
-            <div className="home-page__section8-box">
+            <div className="home-page__section9-box">
               <img src={expImg2} alt="" />
               <p>ЗНАНИЯ О СИСТЕМЕ ЭНЕРГЕТИКИ, ВКЛЮЧАЯ ЭЛЕКТРОСЕТИ</p>
             </div>
           </div>
-          <div className="home-page__section8-footer">
+          <div className="home-page__section9-footer">
             <img src={icon} alt="" />
             <p>UZEE С 1956 года</p>
           </div>
         </div>
       </section>
-      <section className="home-page__section9">
+      <section className="home-page__section10">
         <img src={homePageIconImg} alt="" className="iconBannerImg" />
-        <h3 className="main-title">Наш <span>опыт</span></h3>
-        <div className="home-page__section9-map">
-          <img src={map} alt="" className="home-page__section9-map-img"/>
-          <div className="home-page__section9-map-cards">
-            <div className="home-page__section9-map-amount1">
-              <h5><img src={cyrcle} alt="" />3123</h5>
+        <h3 className="main-title">
+          Наш <span>опыт</span>
+        </h3>
+        <div className="home-page__section10-map">
+          <img src={map} alt="" className="home-page__section10-map-img" />
+          <div className="home-page__section10-map-cards">
+            <div className="home-page__section10-map-amount1">
+              <h5>
+                <img src={cyrcle} alt="" />
+                3123
+              </h5>
               <p>Реализованные проекты 2019-2023</p>
             </div>
-            <div className="home-page__section9-map-amount2">
-              <h5><img src={cyrcle} alt="" />72</h5>
+            <div className="home-page__section10-map-amount2">
+              <h5>
+                <img src={cyrcle} alt="" />
+                72
+              </h5>
               <p>Проекты в 2025 году</p>
             </div>
-            <div className="home-page__section9-map-amount3">
-              <h5><img src={cyrcle} alt="" />7</h5>
+            <div className="home-page__section10-map-amount3">
+              <h5>
+                <img src={cyrcle} alt="" />7
+              </h5>
               <p>Проекты в области возобновляемой энергетики в 2024 году</p>
             </div>
           </div>
         </div>
       </section>
-      <section className="home-page__section10">
+      <section className="home-page__section11">
         <div className="container">
-          <h3 className="home-page__section10-title">НАШИ ПРЕИМУЩЕСТВА</h3>
-          <div className="home-page__section10-content">
-            <div className="home-page__section10-card">
+          <div className="home-page__section11-title">
+            <h2>Почему выбирают нас?</h2>
+          </div>
+          <div className="home-page__section11-reasons">
+            <div className="home-page__section11-reason">
+              <span>1</span>
+              <p>Большой опыт и успешные проекты</p>
+            </div>
+            <div className="home-page__section11-reason">
+              <span>2</span>
+              <p>Квалифицированная команда инженеро</p>
+            </div>
+            <div className="home-page__section11-reason">
+              <span>3</span>
+              <p>Передовые технологии</p>
+            </div>
+            <div className="home-page__section11-reason">
+              <span>4</span>
+              <p>
+                Полный цикл проектных услуг — от концепции и
+                технико-экономического обоснования до детальной документации и
+                авторского надзора.
+              </p>
+            </div>
+            <div className="home-page__section11-reason">
+              <span>5</span>
+              <p>
+                Индивидуальные и экономически эффективные решения для клиентов
+              </p>
+            </div>
+            <div className="home-page__section11-reason">
+              <span>6</span>
+              <p>Гарантированное качество и надежность</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="home-page__section12">
+        <div className="container">
+          <h3 className="home-page__section12-title">НАШИ ПРЕИМУЩЕСТВА</h3>
+          <div className="home-page__section12-content">
+            <div className="home-page__section12-card">
               <img src={boxes} alt="" />
               <div className="">
                 <h4>Проект с учетом современных технологий строительства</h4>
@@ -573,7 +754,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="home-page__section10-card">
+            <div className="home-page__section12-card">
               <img src={boxes} alt="" />
               <div className="">
                 <h4>Проект с учетом современных технологий строительства</h4>
@@ -586,7 +767,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="home-page__section10-card">
+            <div className="home-page__section12-card">
               <img src={boxes} alt="" />
               <div className="">
                 <h4>Проект с учетом современных технологий строительства</h4>
@@ -599,7 +780,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="home-page__section10-card">
+            <div className="home-page__section12-card">
               <img src={boxes} alt="" />
               <div className="">
                 <h4>Проект с учетом современных технологий строительства</h4>
@@ -615,22 +796,35 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="home-page__section11">
-        <h3 className="home-page__section11-title">
-          Наши лицензии и сертификаты
-        </h3>
-        <div className="home-page__section11-content">
-          <div
-            className="home-page__section11-card"
-            onMouseMove={handleMouseMove}
-            onMouseLeave={handleMouseLeave}
-          >
-            <img src={licenziya} alt="" />
-            <button type="submit" onClick={() => openModal()}>
-              +
-            </button>
+      <section className="home-page__section13">
+        <div className="container">
+          <div className="home-page__section13-content">
+            <h3 className="main-title">
+              НАШИ <span>СЕРТИФИКАТЫ</span>
+            </h3>
+            <img src={sertIcon} alt="" />
+            <p className="main-subtitle">
+              Качество и надежность для нас не просто слова, поскольку мы строго
+              соблюдаем процедуры международной и национальной сертификации.
+            </p>
           </div>
-          {modal && <LicenzModal img={licenziya} close={closeModal} />}
+          {licenzImages.map((img, index) => (
+            <img
+              src={img}
+              key={index}
+              alt=""
+              className="home-page__section13-img1"
+              onMouseMove={handleMouseMove}
+              onMouseLeave={handleMouseLeave}
+              onClick={() => {
+                openModal();
+                setImgIdx(index);
+              }}
+            />
+          ))}
+          {modal && (
+            <LicenzModal close={closeModal} img={licenzImages[imgIdx]} />
+          )}
         </div>
       </section>
     </div>
