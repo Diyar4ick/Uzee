@@ -1,8 +1,8 @@
-import greet from "../../assets/images/service-2-img.jpg";
-import icon1 from "../../assets/images/service-icon1.jpg";
-import icon2 from "../../assets/images/service-icon2.jpg";
-import icon7 from "../../assets/images/service-icon7.jpg";
-import icon6 from "../../assets/images/service-icon6.jpg";
+import greet from "../../assets/images/serviceImages/service-2-img.jpg";
+import icon1 from "../../assets/images/serviceImages/service-icon1.jpg";
+import icon2 from "../../assets/images/serviceImages/service-icon2.jpg";
+import icon7 from "../../assets/images/serviceImages/service-icon7.jpg";
+import icon6 from "../../assets/images/serviceImages/service-icon6.jpg";
 
 const Service2 = () => {
   return (

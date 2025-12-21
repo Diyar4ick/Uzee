@@ -1,6 +1,6 @@
-import greet from "../../assets/images/service-3-img.jpg";
-import icon9 from "../../assets/images/service-icon9.jpg";
-import icon8 from "../../assets/images/service-icon8.jpg";
+import greet from "../../assets/images/serviceImages/service-3-img.jpg";
+import icon9 from "../../assets/images/serviceImages/service-icon9.jpg";
+import icon8 from "../../assets/images/serviceImages/service-icon8.jpg";
 
 const Service3 = () => {
   return (

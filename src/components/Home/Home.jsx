@@ -1,60 +1,82 @@
 import homePageIconImg from "../../assets/images/iconBanner-left.svg";
 import homePageIconImg2 from "../../assets/images/iconBanner-right.svg";
-import persons from "../../assets/images/person-2.svg";
-import statistics from "../../assets/images/statistics.svg";
-import lamp from "../../assets/images/lamp.svg";
+import persons from "../../assets/images/generalIcons/person-2.svg";
+import statistics from "../../assets/images/generalIcons/statistics.svg";
+import lamp from "../../assets/images/generalIcons/lamp.svg";
 import news from "../../assets/images/news-img.jpg";
-import boxes from "../../assets/images/boxes.svg";
+import boxes from "../../assets/images/generalIcons/boxes.svg";
 import { useState } from "react";
 import LicenzModal from "../LicenzModal/LicenzModal";
-import homeBanner from "../../assets/images/homePageBanner.jpg";
-import homeSection2 from "../../assets/images/homePageSection2.jpg";
+import homeBanner from "../../assets/images/homePages/homePageBanner.jpg";
+import homeSection2 from "../../assets/images/homePages/homePageSection2.jpg";
 // import checkmark from "../../assets/images/checkmark.svg";
-// import adventages from "../../assets/images/company-advantages.jpg";
-import areasImg1 from "../../assets/images/homePageSection3-1.jpg";
-import areasImg2 from "../../assets/images/homePageSection3-2.jpg";
-import areasImg3 from "../../assets/images/homePageSection3-3.jpg";
-import areasImg4 from "../../assets/images/homePageSection3-4.jpg";
+// import adventages from "../../assets/images/companyIcons/company-advantages.jpg";
+import areasImg1 from "../../assets/images/homePages/homePageSection3-1.jpg";
+import areasImg2 from "../../assets/images/homePages/homePageSection3-2.jpg";
+import areasImg3 from "../../assets/images/homePages/homePageSection3-3.jpg";
+import areasImg4 from "../../assets/images/homePages/homePageSection3-4.jpg";
 
-import arrowYel from "../../assets/images/arrow-yellow.svg";
-import arrowBlue from "../../assets/images/arrow-blue.svg";
-import arrowGreen from "../../assets/images/arrow-green.svg";
+import arrowYel from "../../assets/images/generalIcons/arrow-yellow.svg";
+import arrowBlue from "../../assets/images/generalIcons/arrow-blue.svg";
+import arrowGreen from "../../assets/images/generalIcons/arrow-green.svg";
 
 import expImg1 from "../../assets/images/expImg1.jpg";
 import expImg2 from "../../assets/images/expImg2.jpg";
 
-import icon from "../../assets/images/service-icon10.jpg";
+import icon from "../../assets/images/serviceImages/service-icon10.jpg";
 
 import map from "../../assets/images/uzbMap.png";
-import cyrcle from "../../assets/images/cyrcle.svg";
+import map2 from "../../assets/images/map.jpg";
+import cyrcle from "../../assets/images/generalIcons/cyrcle.svg";
 
-import sertIcon from "../../assets/images/service-icon11.jpg";
+import sertIcon from "../../assets/images/serviceImages/service-icon11.jpg";
 
-import sert1 from "../../assets/images/sert1.jpg";
-import sert2 from "../../assets/images/sert2.jpg";
-import sert22 from "../../assets/images/sert2-2.jpg";
-import sert3 from "../../assets/images/sert3.jpg";
-// import sert32 from "../../assets/images/sert3-2.jpg";
-import sert4 from "../../assets/images/sert4.jpg";
-// import sert42 from "../../assets/images/sert4-2.jpg";
-import sert5 from "../../assets/images/sert5.jpg";
-import sert52 from "../../assets/images/sert5-2.jpg";
-import sert6 from "../../assets/images/sert6.jpg";
+import sert1 from "../../assets/images/serts/sert1.jpg";
+import sert2 from "../../assets/images/serts/sert2.jpg";
+import sert22 from "../../assets/images/serts/sert2-2.jpg";
+import sert3 from "../../assets/images/serts/sert3.jpg";
+// import sert32 from "../../assets/images/serts/sert3-2.jpg";
+import sert4 from "../../assets/images/serts/sert4.jpg";
+// import sert42 from "../../assets/images/serts/sert4-2.jpg";
+import sert5 from "../../assets/images/serts/sert5.jpg";
+import sert52 from "../../assets/images/serts/sert5-2.jpg";
+import sert6 from "../../assets/images/serts/sert6.jpg";
 
 import logo2 from "../../assets/images/logo2.jpg";
 
-import companyIcon1 from "../../assets/images/company-icon1.jpg";
-import companyIcon2 from "../../assets/images/company-icon2.jpg";
-import companyIcon3 from "../../assets/images/company-icon3.jpg";
-import companyIcon4 from "../../assets/images/company-icon4.jpg";
-import companyIcon5 from "../../assets/images/company-icon5.jpg";
-import companyIcon6 from "../../assets/images/company-icon6.jpg";
-import companyIcon7 from "../../assets/images/company-icon7.jpg";
-import companyIcon8 from "../../assets/images/company-icon8.jpg";
-import companyIcon9 from "../../assets/images/company-icon9.jpg";
-import companyIcon10 from "../../assets/images/company-icon10.jpg";
-import companyIcon11 from "../../assets/images/company-icon11.jpg";
-import companyBanner from '../../assets/images/company-banner.jpg'
+import companyIcon1 from "../../assets/images/companyIcons/company-icon1.jpg";
+import companyIcon2 from "../../assets/images/companyIcons/company-icon2.jpg";
+import companyIcon3 from "../../assets/images/companyIcons/company-icon3.jpg";
+import companyIcon4 from "../../assets/images/companyIcons/company-icon4.jpg";
+import companyIcon5 from "../../assets/images/companyIcons/company-icon5.jpg";
+import companyIcon6 from "../../assets/images/companyIcons/company-icon6.jpg";
+import companyIcon7 from "../../assets/images/companyIcons/company-icon7.jpg";
+import companyIcon8 from "../../assets/images/companyIcons/company-icon8.jpg";
+import companyIcon9 from "../../assets/images/companyIcons/company-icon9.jpg";
+import companyIcon10 from "../../assets/images/companyIcons/company-icon10.jpg";
+import companyIcon11 from "../../assets/images/companyIcons/company-icon11.jpg";
+import companyBanner from "../../assets/images/companyIcons/company-banner.jpg";
+
+import partnersImg1 from "../../assets/images/partners/img1.png";
+import partnersImg2 from "../../assets/images/partners/img2.png";
+import partnersImg3 from "../../assets/images/partners/img3.png";
+import partnersImg4 from "../../assets/images/partners/img4.svg";
+import partnersImg5 from "../../assets/images/partners/img5.svg";
+import partnersImg6 from "../../assets/images/partners/img6.png";
+import partnersImg7 from "../../assets/images/partners/img7.jpg";
+
+import clientsImg1 from "../../assets/images/clients/img7.jpg";
+import clientsImg2 from "../../assets/images/clients/img2.jpg";
+import clientsImg3 from "../../assets/images/clients/img3.png";
+import clientsImg4 from "../../assets/images/clients/img4.png";
+import clientsImg5 from "../../assets/images/clients/img5.png";
+import clientsImg6 from "../../assets/images/clients/img6.jpg";
+import clientsImg7 from "../../assets/images/clients/img7.jpg";
+import clientsImg8 from "../../assets/images/clients/img8.png";
+import clientsImg9 from "../../assets/images/clients/img9.jpg";
+import clientsImg10 from "../../assets/images/clients/img10.jpg";
+import clientsImg11 from "../../assets/images/clients/img11.jpg";
+import clientsImg12 from "../../assets/images/clients/img12.png";
 
 import { Link } from "react-router-dom";
 
@@ -421,7 +443,11 @@ const Home = () => {
           </h3>
           <img src={logo2} alt="" className="logo-2" />
         </div>
-        <img src={companyBanner} alt="" className="home-page__section7-banner"/>
+        <img
+          src={companyBanner}
+          alt=""
+          className="home-page__section7-banner"
+        />
         <div className="container">
           <div className="home-page__section7-content">
             <div className="home-page__section7-card">
@@ -438,72 +464,110 @@ const Home = () => {
               </div>
             </div>
             <div className="home-page__section7-card">
-              <p>МОДЕРНИЗАЦИЯ подстанций в соответствии с ПП 91 от 11.03.2023 и DCM 259 от 26.</p>
+              <p>
+                МОДЕРНИЗАЦИЯ подстанций в соответствии с ПП 91 от 11.03.2023 и
+                DCM 259 от 26.
+              </p>
               <div className="home-page__section7-logos">
                 <img src={companyIcon8} alt="" />
               </div>
             </div>
             <div className="home-page__section7-card">
-              <p>МОДЕРНИЗАЦИЯ ПОДСТАНЦИЙ 35КВ–110КВ И ВОЗДУШНЫХ ЛИНИЙ ЭЛЕКТРОПЕРЕДАЧ ПОД УПРАВЛЕНИЕМ ПК В 2025–2026 ГОДАХ</p>
+              <p>
+                МОДЕРНИЗАЦИЯ ПОДСТАНЦИЙ 35КВ–110КВ И ВОЗДУШНЫХ ЛИНИЙ
+                ЭЛЕКТРОПЕРЕДАЧ ПОД УПРАВЛЕНИЕМ ПК В 2025–2026 ГОДАХ
+              </p>
               <div className="home-page__section7-logos">
                 <img src={companyIcon8} alt="" />
                 <img src={companyIcon9} alt="" />
               </div>
             </div>
             <div className="home-page__section7-card">
-              <p>Строительство солнечной фотоэлектрической электростанции Tutli-2 мощностью 65 МВт</p>
+              <p>
+                Строительство солнечной фотоэлектрической электростанции Tutli-2
+                мощностью 65 МВт
+              </p>
               <div className="home-page__section7-logos">
                 <img src={companyIcon2} alt="" />
               </div>
             </div>
             <div className="home-page__section7-card">
-              <p>Строительство солнечной фотоэлектрической электростанции Tutli-2 мощностью 65 МВт</p>
+              <p>
+                Строительство солнечной фотоэлектрической электростанции Tutli-2
+                мощностью 65 МВт
+              </p>
               <div className="home-page__section7-logos">
                 <img src={companyIcon3} alt="" />
                 <img src={companyIcon4} alt="" />
               </div>
             </div>
             <div className="home-page__section7-card">
-              <p>«Строительство аккумулирующей электростанции Сергели мощностью 150 МВт / 300 МВтч с реконструкцией наружного распределительного устройства 220/110 кВ подстанции Сергели»</p>
+              <p>
+                «Строительство аккумулирующей электростанции Сергели мощностью
+                150 МВт / 300 МВтч с реконструкцией наружного распределительного
+                устройства 220/110 кВ подстанции Сергели»
+              </p>
               <div className="home-page__section7-logos">
                 <img src={companyIcon11} alt="" />
               </div>
             </div>
             <div className="home-page__section7-card">
-              <p>Строительство гибридной электростанции в Navoi (300 МВт СЭС, 150 МВт/300 БЭСС)</p>
+              <p>
+                Строительство гибридной электростанции в Navoi (300 МВт СЭС, 150
+                МВт/300 БЭСС)
+              </p>
               <div className="home-page__section7-logos">
                 <img src={companyIcon7} alt="" />
               </div>
             </div>
             <div className="home-page__section7-card">
-              <p>ТЭО проекта «Строительство подстанции 500 кВ Кольцевая и двух воздушных линий электропередачи 500 кВ (LILO)»</p>
+              <p>
+                ТЭО проекта «Строительство подстанции 500 кВ Кольцевая и двух
+                воздушных линий электропередачи 500 кВ (LILO)»
+              </p>
               <div className="home-page__section7-logos">
                 <img src={companyIcon9} alt="" />
               </div>
             </div>
             <div className="home-page__section7-card">
-              <p>Строительство парогазовой электростанции мощностью 1600 МВт в Сурхандарьинской области. Подстанция 500/220/10,5 кВ.</p>
+              <p>
+                Строительство парогазовой электростанции мощностью 1600 МВт в
+                Сурхандарьинской области. Подстанция 500/220/10,5 кВ.
+              </p>
               <div className="home-page__section7-logos">
                 <img src={companyIcon5} alt="" />
               </div>
             </div>
             <div className="home-page__section7-card">
-              <p>Строительство системы хранения энергии Adolat & Chirchiq мощностью 100 МВт/200 МВтч</p>
+              <p>
+                Строительство системы хранения энергии Adolat & Chirchiq
+                мощностью 100 МВт/200 МВтч
+              </p>
               <div className="home-page__section7-logos">
                 <img src={companyIcon7} alt="" />
               </div>
             </div>
             <div className="home-page__section7-card">
-              <p>Строительство системы хранения энергии Adolat & Chirchiq мощностью 100 МВт/200 МВтч</p>
+              <p>
+                Строительство системы хранения энергии Adolat & Chirchiq
+                мощностью 100 МВт/200 МВтч
+              </p>
             </div>
             <div className="home-page__section7-card">
-              <p>Строительство систем накопления энергии Ahangaran, Kizilravat, Obi Hayot и Hakan мощностью 100 МВт/200 МВтч каждая</p>
+              <p>
+                Строительство систем накопления энергии Ahangaran, Kizilravat,
+                Obi Hayot и Hakan мощностью 100 МВт/200 МВтч каждая
+              </p>
               <div className="home-page__section7-logos">
                 <img src={companyIcon7} alt="" />
               </div>
             </div>
             <div className="home-page__section7-card">
-              <p>ТЭО проекта «Воздушная линия электропередачи 500 кВ от подстанции Каракуль 500/220/10 кВ до подстанции Нурабад 500/220/10 кВ»</p>
+              <p>
+                ТЭО проекта «Воздушная линия электропередачи 500 кВ от
+                подстанции Каракуль 500/220/10 кВ до подстанции Нурабад
+                500/220/10 кВ»
+              </p>
               <div className="home-page__section7-logos">
                 <img src={companyIcon9} alt="" />
               </div>
@@ -825,6 +889,66 @@ const Home = () => {
           {modal && (
             <LicenzModal close={closeModal} img={licenzImages[imgIdx]} />
           )}
+        </div>
+      </section>
+      <section className="home-page__section14">
+        <h3 className="main-title">
+          Наши <span>БИЗНЕС-ПАРТНЕРЫ</span>
+        </h3>
+        <div className="home-page__section14-partners container">
+          <img src={partnersImg1} alt="" />
+          <img src={partnersImg2} alt="" />
+          <img src={partnersImg3} alt="" />
+          <img src={partnersImg4} alt="" />
+          <img src={partnersImg5} alt="" />
+          <img src={partnersImg6} alt="" />
+          <img src={partnersImg7} alt="" />
+        </div>
+      </section>
+      <section className="home-page__section15">
+        <h3 className="main-title">
+          Наши <span>КЛИЕНТЫ</span>
+        </h3>
+        <div className="home-page__section15-clients container">
+          <img src={clientsImg1} alt="" />
+          <img src={clientsImg2} alt="" />
+          <img src={clientsImg3} alt="" />
+          <img src={clientsImg4} alt="" />
+          <img src={clientsImg5} alt="" />
+          <img src={clientsImg6} alt="" />
+          <img src={clientsImg7} alt="" />
+          <img src={clientsImg8} alt="" />
+        </div>
+      </section>
+      <section className="home-page__section16">
+        <div className="home-page__section16-img">
+          <img src={clientsImg1} alt="" />
+          <p>NEGU</p>
+        </div>
+        <div className="home-page__section16-img">
+          <img src={clientsImg9} alt="" />
+          <p>Oilstone Technologies DMCC, UAE</p>
+        </div>
+        <div className="home-page__section16-img">
+          <img src={clientsImg10} alt="" />
+          <p>Enter Engineering </p>
+        </div>
+          <img src={map2} alt="" />
+        <div className="home-page__section16-img">
+          <img src={clientsImg3} alt="" />
+          <p>CEEC</p>
+        </div>
+        <div className="home-page__section16-img">
+          <img src={clientsImg11} alt="" />
+          <p>UZLITI Engineering </p>
+        </div>
+        <div className="home-page__section16-img">
+          <img src={clientsImg6} alt="" />
+          <p>O'ZELEKTROAPPARAT-ELEСTROSHIELD</p>
+        </div>
+        <div className="home-page__section16-img">
+          <img src={clientsImg12} alt="" />
+          <p>WANG DA ROLLING STEEL</p>
         </div>
       </section>
     </div>

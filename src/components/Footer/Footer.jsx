@@ -1,13 +1,13 @@
 import sert1 from "../../assets/images/footer-sert1.jpg";
 import logo from "../../assets/images/logo.png";
-import facebook from "../../assets/images/facebook.svg";
-import instagram from "../../assets/images/instagram.svg";
-import twitter from "../../assets/images/twitter.svg";
-import vk from "../../assets/images/vk.svg";
-import whatsapp from "../../assets/images/whatsapp.svg";
-import youtube from "../../assets/images/youtube.svg";
-import email from "../../assets/images/email.svg";
-import phone from "../../assets/images/phone.svg";
+import facebook from "../../assets/images/generalIcons/facebook.svg";
+import instagram from "../../assets/images/generalIcons/instagram.svg";
+import twitter from "../../assets/images/generalIcons/twitter.svg";
+import vk from "../../assets/images/generalIcons/vk.svg";
+import whatsapp from "../../assets/images/generalIcons/whatsapp.svg";
+import youtube from "../../assets/images/generalIcons/youtube.svg";
+import email from "../../assets/images/generalIcons/email.svg";
+import phone from "../../assets/images/generalIcons/phone.svg";
 
 const Footer = () => {
   return (
