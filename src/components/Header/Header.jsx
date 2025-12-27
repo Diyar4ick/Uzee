@@ -81,47 +81,45 @@ const Header = () => {
               {activeMenu === 'about' && (
                 <ul className="header__nav-dropdown">
                 <li><NavLink to="/">Об организации </NavLink></li>
-                <li><a href="#">История общества </a></li>
-                <li><a href="#">Деятельность общества </a></li>
-                <li><a href="#">Структура общества </a></li>
+                <li><a href="#">Text </a></li>
+                <li><a href="#">Text </a></li>
+                <li><a href="#">Text </a></li>
               </ul>
               )}
             </li>
             <li className="header__nav-item" onClick={() => toggleMenu('corpotation')}>
-              <button type="submit">Корпоративное управление ▾</button>
+              <button type="submit">Деятельность ▾</button>
               {activeMenu === 'corpotation' && (
                 <ul className="header__nav-dropdown">
-                <li><a href="#">Существенные факты </a></li>
-                <li><a href="#">История общества </a></li>
-                <li><a href="#">Деятельность общества </a></li>
-                <li><a href="#">Структура общества </a></li>
+                <li><NavLink to="/activity">Услуги </NavLink></li>
+                <li><a href="#">Text </a></li>
+                <li><a href="#">Text </a></li>
+                <li><a href="#">Text </a></li>
               </ul>
               )}
             </li>
             <li className="header__nav-item" onClick={() => toggleMenu('law')}>
-              <button type="submit">Законодательство ▾</button>
+              <button type="submit">Опыт и компетенции ▾</button>
               {activeMenu === 'law' && (
                 <ul className="header__nav-dropdown">
-                <li><a href="#">Уставы </a></li>
-                <li><a href="#">История общества </a></li>
-                <li><a href="#">Деятельность общества </a></li>
-                <li><a href="#">Структура общества </a></li>
+                <li><NavLink to="/exp">Опыт и компетенции </NavLink></li>
+                <li><a href="#">Text </a></li>
+                <li><a href="#">Text </a></li>
+                <li><a href="#">Text </a></li>
               </ul>
               )}
             </li>
             <li className="header__nav-item" onClick={() => toggleMenu('service')}>
-              <button type="submit">Интерактивные услуги ▾</button>
+              <button type="submit">Почему выбирают нас ▾</button>
               {activeMenu === 'service' && (
                 <ul className="header__nav-dropdown">
-                <li><a href="#">Виртуальная приёмная руководителя </a></li>
-                <li><a href="#">История общества </a></li>
-                <li><a href="#">Деятельность общества </a></li>
-                <li><a href="#">Структура общества </a></li>
+                <li><NavLink to="/adv">Почему выбирают нас </NavLink></li>
+                <li><a href="#">Text </a></li>
+                <li><a href="#">Text </a></li>
+                <li><a href="#">Text </a></li>
               </ul>
               )}
             </li>
-       
-
             <li className="header__nav-item">
               <NavLink to="/contacts">Контакты</NavLink>
             </li>

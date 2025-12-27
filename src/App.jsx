@@ -6,6 +6,9 @@ import Footer from "./components/Footer/Footer"
 import Service1 from "./components/Services/Service1"
 import Service2 from "./components/Services/Service2"
 import Service3 from "./components/Services/Service3"
+import Activity from "./components/Activity/Activity"
+import Experience from "./components/Experience/Experience"
+import Advanteges from "./components/Advantages/Advanteges"
 
 function App() {
 
@@ -14,6 +17,9 @@ function App() {
        <Header/>
        <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/activity" element={<Activity/>}/>
+        <Route path="/exp" element={<Experience/>}/>
+        <Route path="/adv" element={<Advanteges/>}/>
         <Route path="/contacts" element={<Contacts/>}/>
         <Route path="/service-1" element={<Service1/>}/>
         <Route path="/service-2" element={<Service2/>}/>
@@ -22,6 +28,6 @@ function App() {
        <Footer/>
     </Router>
   )
-}
+} 
 
 export default App
