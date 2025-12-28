@@ -1,0 +1,316 @@
+@mixin media($size) {
+  @media (max-width: #{$size}px) {
+    @content;
+  }
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  &__section1 {
+    display: flex;
+    .container {
+      display: flex;
+      align-items: center;
+    }
+
+    @include media(900) {
+      img {
+        max-width: 200px;
+      }
+    }
+    @include media(600) {
+      img {
+        max-width: 150px;
+      }
+    }
+    @include media(450) {
+      img {
+        display: none;
+      }
+    }
+    &-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 1000px;
+      h3 {
+        @include media(900) {
+          font-size: 25px;
+        }
+        @include media(600) {
+          // font-size: 2px;
+        }
+      }
+    }
+  }
+  &__section2 {
+    display: flex;
+    .container {
+      display: flex;
+      align-items: center;
+    }
+
+    @include media(900) {
+      img {
+        max-width: 200px;
+      }
+    }
+    @include media(600) {
+      img {
+        max-width: 150px;
+      }
+    }
+    @include media(450) {
+      img {
+        display: none;
+      }
+    }
+    &-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 1000px;
+      h3 {
+        @include media(900) {
+          font-size: 25px;
+        }
+        @include media(600) {
+          // font-size: 2px;
+        }
+      }
+    }
+  }
+  &__section3 {
+    height: 370px;
+    position: relative;
+    background: #00000040;
+    @include media(990) {
+      height: 100%;
+      background-size: cover;
+    }
+
+    &-backround {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -20;
+      object-fit: cover;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      padding: 30px 0;
+      margin-bottom: 10px;
+    }
+
+    &-content {
+      @include media(1250) {
+        padding: 0 20px;
+      }
+    }
+
+    &-subtitle {
+      font-weight: 700;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: #ffff;
+      @include media(990) {
+        font-size: 13px;
+      }
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: uppercase;
+      padding: 10px 0;
+      color: white;
+
+      @include media(990) {
+        font-size: 18px;
+      }
+    }
+    &-description {
+      font-weight: 300;
+      font-size: 13px;
+      text-transform: capitalize;
+      color: #fff;
+      padding-bottom: 40px;
+      @include media(990) {
+        font-size: 12px;
+      }
+    }
+    &-cards {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @include media(990) {
+        justify-content: center;
+        gap: 20px;
+      }
+    }
+    &-card {
+      max-width: 330px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @include media(990) {
+        max-width: 300px;
+      }
+      h3 {
+        font-weight: 500;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        @include media(990) {
+          font-size: 14px;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: justify;
+        color: #fff;
+        @include media(990) {
+          font-size: 12px;
+          padding-bottom: 20px;
+        }
+        @include media(530) {
+          padding-bottom: 30px;
+        }
+      }
+      img {
+        width: 80px;
+        padding: 10px;
+        @include media(990) {
+          width: 60px;
+        }
+      }
+    }
+  }
+  &__section4 {
+    padding: 32px 0 54px;
+    &-title {
+      padding-bottom: 60px;
+      font-weight: 700;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #222a31;
+    }
+    &-content {
+      display: flex;
+      justify-content: space-between;
+      span {
+        position: relative;
+
+        p {
+          font-family: var(--font-family);
+          font-weight: 500;
+          font-size: 15px;
+          text-transform: lowercase;
+          color: #fff;
+          text-align: center;
+        }
+        svg {
+          position: absolute;
+          z-index: -30;
+        }
+      }
+      h4 {
+        font-weight: 400;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #222a31;
+        max-width: 275px;
+        text-align: justify;
+      }
+    }
+    &-card {
+      max-width: 360px;
+      width: 100%;
+      img {
+        width: 100%;
+        padding-bottom: 15px;
+      }
+    }
+    &-news {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+      @include media(1190) {
+        justify-content: center;
+        gap: 15px;
+      }
+    }
+  }
+  &__section5 {
+    display: flex;
+    .iconBannerImg {
+      @include media(700) {
+        display: none;
+      }
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      h3 {
+        max-width: 400px;
+        @include media(700) {
+          margin: 0 auto;
+        }
+      }
+    }
+    &-timeline {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 30px;
+    }
+    &-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 20px;
+      &-img {
+        display: flex;
+      }
+      &-content {
+        max-width: 300px;
+        width: 100%;
+        padding: 10px;
+        border: solid 2px #f5a623;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p {
+          text-align: center;
+          font-size: 18px;
+        }
+      }
+    }
+    &-time {
+      display: flex;
+      position: relative;
+      width: 180px;
+      height: 80px;
+      align-items: center;
+      justify-content: center;
+      p {
+        font-size: 30px;
+        font-weight: 400;
+      }
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+@mixin media($size) {
+  @media (max-width: #{$size}px) {
+    @content;
+  }
+}
+
+.adv-page {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0;
+  &__section1 {
+    margin: 30px 0;
+    .container {
+      display: flex;
+    }
+    &-title {
+      background: rgb(75, 116, 219);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 80px 0 60px;
+      @include media(750) {
+        padding: 0 60px 0 40px;
+      }
+      @include media(600) {
+        padding: 0 50px 0 30px;
+      }
+      h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        max-width: 200px;
+        color: white;
+        @include media(750) {
+          font-size: 25px;
+        }
+        @include media(600) {
+          font-size: 17px;
+        }
+      }
+    }
+    &-reason {
+      display: flex;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      @include media(600) {
+        gap: 0;
+      }
+      span {
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+        background: rgb(75, 116, 219);
+        padding: 20px 28px;
+        border-radius: 50px;
+        border: solid 4px white;
+        border-radius: 50px;
+        @include media(750) {
+          font-size: 20px;
+          padding: 18px 25px;
+        }
+        @include media(600) {
+          font-size: 17px;
+          padding: 15px 20px;
+        }
+      }
+      p {
+        font-size: 20px;
+        font-weight: 500;
+        @include media(750) {
+          font-size: 16px;
+        }
+        @include media(600) {
+          font-size: 14px;
+        }
+        @include media(450) {
+          font-size: 12px;
+        }
+      }
+    }
+    &-reasons {
+      transform: translateX(-40px);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      @include media(600) {
+        transform: translateX(-30px);
+      }
+    }
+  }
+  &__section2 {
+    &-title {
+      font-weight: 700;
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #222a31;
+      text-align: center;
+      padding: 60px 0;
+    }
+    &-card {
+      display: flex;
+      max-width: 530px;
+      width: 100%;
+      align-items: start;
+      gap: 20px;
+      h4 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #000;
+        padding-bottom: 13px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #7e7e7e;
+      }
+    }
+    &-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+    }
+  }
+}

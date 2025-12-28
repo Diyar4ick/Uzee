@@ -1,0 +1,126 @@
+@mixin media($size) {
+    @media(max-width: #{$size}px) {
+        @content;
+    }
+}
+
+.footer {
+  background-image: url(../../assets/images/footer.png);
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 24px;
+    flex-wrap: wrap;
+
+    @include media(930) {
+        justify-content: center;
+        gap: 30px;
+    }
+  }
+
+  &__bottom {
+    padding: 24px 0;
+    border-top: solid 1px rgba(128, 128, 128, 0.574);
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 13px;
+      text-transform: capitalize;
+      color: #fff;
+      span{
+        font-weight: 700;
+      }
+    }
+  }
+
+  &__contacts {
+    max-width: 250px;
+    width: 100%;
+    &-logo {
+      width: 100%;
+      padding-bottom: 25px;
+    }
+  }
+  &__email {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 20px;
+    a {
+      font-weight: 500;
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+  &__phone {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 10px;
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+
+  &__address {
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+
+  &__media {
+    &-images {
+      img {
+        padding: 0 5px;
+        max-width: 30px;
+        width: 100%;
+      }
+    }
+    h4 {
+      font-weight: 400;
+      font-size: 16px;
+      text-transform: capitalize;
+      color: #fff;
+      padding-bottom: 10px;
+    }
+  }
+
+  &-h3 {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #0068b4;
+    padding-bottom: 40px;
+  }
+
+  &__map {
+    &-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    &-item {
+      font-weight: 500;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #fff;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+  }
+
+  &__sert {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

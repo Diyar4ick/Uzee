@@ -1,0 +1,83 @@
+@import url(./fonts.scss);
+
+@mixin media($size) {
+  @media (max-width: #{$size}px) {
+    @content;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+  background: none;
+}
+.container {
+  max-width: 1250px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+} 
+.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  span {
+    color: #0068b4;
+  }
+}
+.main-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 50px;
+  @include media(900) {
+    font-size: 17px;
+  }
+  @include media(600) {
+    font-size: 15px;
+    padding-bottom: 30px;
+  }
+}
+.main-description {
+  color: gray;
+  font-size: 19px;
+  span {
+    display: block;
+    padding: 10px;
+  }
+  @include media(900) {
+    font-size: 15px;
+    span {
+      padding: 7px;
+    }
+  }
+  @include media(600) {
+    font-size: 12px;
+  }
+}
+.iconBannerImg {
+  max-width: 300px;
+}
+.bold {
+  font-weight: 700;
+}
+.enter {
+  display: block;
+  padding: 10px;
+}
+// 0068b4
+
+@import url(../../components/Header/Header.scss);
+@import url(../../components/Footer/Footer.scss);
+@import url(../../components/Home/Home.scss);
+@import url(../../components/LicenzModal/LicenzModal.scss);
+@import url(../../components/Services/Services.scss);
+@import url(../../components/Activity/Activity.scss);
+@import url(../../components/Experience/Experience.scss);
+@import url(../../components/Advantages/Advanteges.scss);
