@@ -13,6 +13,7 @@ import arrowYel from "../../assets/images/generalIcons/arrow-yellow.svg";
 import arrowBlue from "../../assets/images/generalIcons/arrow-blue.svg";
 import arrowGreen from "../../assets/images/generalIcons/arrow-green.svg";
 
+import project1 from "../../assets/images/homePages/homePageSection3-4.jpg";
 
 const Home = () => {
   return (
@@ -274,6 +275,20 @@ const Home = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="home-page__section6">
+        <h2 className="main-title">Наши <span>проекты</span></h2>
+        <div className="container">
+          <div className="home-page__section6-project1">
+            <img src={project1} alt="" />
+            <ul className="home-page__section6-project1-list">
+              <li>
+                <p>РП "Строительство ВЛ 220 kV на территории СЭЗ "Ургут" со строительством новой ПС 220 kV мощностью 2х125 МВА для повышения надежности электроснабжения потребителей электроэнергии, расположенных на массивах "Мерганча", "Сариктепа".</p>
+                <span>2021 год.</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
