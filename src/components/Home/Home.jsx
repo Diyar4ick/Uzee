@@ -13,7 +13,13 @@ import arrowYel from "../../assets/images/generalIcons/arrow-yellow.svg";
 import arrowBlue from "../../assets/images/generalIcons/arrow-blue.svg";
 import arrowGreen from "../../assets/images/generalIcons/arrow-green.svg";
 
-import project1 from "../../assets/images/homePages/homePageSection3-4.jpg";
+import project1 from "../../assets/images/projects/project1.jpg";
+import project2 from "../../assets/images/projects/project2.jpg";
+import project3 from "../../assets/images/projects/project3.jpg";
+import project4 from "../../assets/images/projects/project4.jpg";
+import project5 from "../../assets/images/projects/project5.jpg";
+import project6 from "../../assets/images/projects/project6.jpg";
+import project7 from "../../assets/images/projects/project7.jpg";
 
 const Home = () => {
   return (
@@ -279,13 +285,87 @@ const Home = () => {
         </div>
       </section>
       <section className="home-page__section6">
-        <h2 className="main-title">Наши <span>проекты</span></h2>
+        <h2 className="main-title">
+          Наши <span>проекты</span>
+        </h2>
         <div className="container">
           <div className="home-page__section6-project1">
             <img src={project1} alt="" />
             <ul className="home-page__section6-project1-list">
               <li>
-                <p>РП "Строительство ВЛ 220 kV на территории СЭЗ "Ургут" со строительством новой ПС 220 kV мощностью 2х125 МВА для повышения надежности электроснабжения потребителей электроэнергии, расположенных на массивах "Мерганча", "Сариктепа".</p>
+                <p>
+                  РП "Строительство ВЛ 220 kV на территории СЭЗ "Ургут" со
+                  строительством новой ПС 220 kV мощностью 2х125 МВА для
+                  повышения надежности электроснабжения потребителей
+                  электроэнергии, расположенных на массивах "Мерганча",
+                  "Сариктепа".
+                </p>
+                <span>2021 год.</span>
+              </li>
+            </ul>
+          </div>
+          <div className="home-page__section6-project1">
+            <img src={project2} alt="" />
+            <ul className="home-page__section6-project1-list">
+              <li>
+                <p>
+                  ""Схемы внешнего электроснабжения проекта "Электрификация железнодорожной линии Бухара-Ургенч-Хива""
+                </p>
+                <span>2021 год.</span>
+              </li>
+            </ul>
+          </div>
+          <div className="home-page__section6-project1">
+            <img src={project3} alt="" />
+            <ul className="home-page__section6-project1-list">
+              <li>
+                <p>
+                 Схема внешнего электроснабжения проекта: "Расширение действую-щего производства кальциниро-ванной соды на 250 тыс. тонн в год на СП ООО "Кунградский содо-вый завод".
+                </p>
+                <span>2021 год.</span>
+              </li>
+            </ul>
+          </div>
+          <div className="home-page__section6-project1">
+            <img src={project4} alt="" />
+            <ul className="home-page__section6-project1-list">
+              <li>
+                <p>
+                  РП "Реконструкция подстанции 110/10-10 kV "ДНС-2" с переводом на напряжение 220/110/35/10 kV в Зарбдорском районе Джизакской области".
+                </p>
+                <span>2021 год.</span>
+              </li>
+            </ul>
+          </div>
+          <div className="home-page__section6-project1">
+            <img src={project5} alt="" />
+            <ul className="home-page__section6-project1-list">
+              <li>
+                <p>
+                 РП "Внешнее электроснабжение "Yunusobod Business City" и улучшение электроснабжения Юнусабадского района г. Ташкента".
+                </p>
+                <span>2021 год.</span>
+              </li>
+            </ul>
+          </div>
+          <div className="home-page__section6-project1">
+            <img src={project6} alt="" />
+            <ul className="home-page__section6-project1-list">
+              <li>
+                <p>
+                  РП "Строительство МГЭС "Шаудар" на канале Даргом и МГЭС на ПК135+50 на канале Даргом в Самаркандской области (строительство ВЛ 35 kV и ВЛ 110 kV)".
+                </p>
+                <span>2021 год.</span>
+              </li>
+            </ul>
+          </div>
+          <div className="home-page__section6-project1">
+            <img src={project7} alt="" />
+            <ul className="home-page__section6-project1-list">
+              <li>
+                <p>
+                  РП "Выдача мощности в энергосистему от станций по производству электроэнергии от свалочного газа, образующегося на полигонах бытовых отходов "Майдонтол".
+                </p>
                 <span>2021 год.</span>
               </li>
             </ul>
