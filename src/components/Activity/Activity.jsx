@@ -4,7 +4,7 @@ import activitySection1 from "../../assets/images/homePages/homePageSection2.jpg
 import areasImg1 from "../../assets/images/homePages/homePageSection3-1.jpg";
 import areasImg2 from "../../assets/images/homePages/homePageSection3-2.jpg";
 import areasImg3 from "../../assets/images/homePages/homePageSection3-3.jpg";
-import areasImg4 from "../../assets/images/projects/project1.jpg";
+import areasImg4 from "../../assets/images/projects/project.jpg";
 
 import companyIcon1 from "../../assets/images/companyIcons/company-icon1.jpg";
 import companyIcon2 from "../../assets/images/companyIcons/company-icon2.jpg";

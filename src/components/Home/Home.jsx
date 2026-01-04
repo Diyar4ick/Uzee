@@ -9,17 +9,19 @@ import homeBanner from "../../assets/images/homePages/homePageBanner.jpg";
 // import checkmark from "../../assets/images/checkmark.svg";
 // import adventages from "../../assets/images/companyIcons/company-advantages.jpg";
 
-import arrowYel from "../../assets/images/generalIcons/arrow-yellow.svg";
-import arrowBlue from "../../assets/images/generalIcons/arrow-blue.svg";
-import arrowGreen from "../../assets/images/generalIcons/arrow-green.svg";
+import sert7 from '../../assets/images/serts/sert7.jpg'
 
-import project1 from "../../assets/images/projects/project1.jpg";
-import project2 from "../../assets/images/projects/project2.jpg";
-import project3 from "../../assets/images/projects/project3.jpg";
-import project4 from "../../assets/images/projects/project4.jpg";
-import project5 from "../../assets/images/projects/project5.jpg";
-import project6 from "../../assets/images/projects/project6.jpg";
-import project7 from "../../assets/images/projects/project7.jpg";
+// import project1 from "../../assets/images/projects/project1.jpg";
+// import project2 from "../../assets/images/projects/project2.jpg";
+// import project3 from "../../assets/images/projects/project3.jpg";
+// import project4 from "../../assets/images/projects/project4.jpg";
+// import project5 from "../../assets/images/projects/project5.jpg";
+// import project6 from "../../assets/images/projects/project6.jpg";
+// import project7 from "../../assets/images/projects/project7.jpg";
+// import project8 from "../../assets/images/projects/project8.jpg";
+// import project9 from "../../assets/images/projects/project9.jpg";
+
+
 
 const Home = () => {
   return (
@@ -212,79 +214,182 @@ const Home = () => {
         </div>
       </section>
       <section className="home-page__section5">
-        <img src={homePageIconImg} alt="" className="iconBannerImg" />
         <div className="container">
           <h3 className="main-title">
-            Наша <span>ИСТОРИЧЕСКАЯ ХРОНОЛОГИЯ</span>
+            Деятельность <span>общества</span>
           </h3>
-          <div className="home-page__section5-timeline">
-            <div className="home-page__section5-box">
-              <span className="home-page__section5-box-img">
-                <div class="home-page__section5-time">
-                  <img src={arrowYel} alt="" />
-                  <p>1956</p>
-                </div>
-                <div class="home-page__section5-time">
-                  <img src={arrowYel} alt="" />
-                  <p>1990</p>
-                </div>
-              </span>
-              <div className="home-page__section5-box-content">
-                <p>
-                  <span className="bold">1956 г.</span> — основан как инженерная
-                  база для распределительных сетей в Центральной Азии.
-                  <span className="enter"></span>
-                  <span className="bold">1990-е годы</span> — расширение услуг
-                  для передающих сетей до 500 кВ.
+          <p className="">
+            Коллектив АО «O'zenergoinjiniring» наряду с изыскательскими работами
+            и рабочим проектированием, готовит комплексные решения отраслевого
+            значения: вырабатывает концепцию и стратегию развития сетевой
+            электроэнергетики, составляет сводные прогнозные энергобалансы,
+            вырабатывает принципиальные решения, определяющие единую техническую
+            политику, а также выполняет нормативные работы. Проектирование
+            поставлено на поток. Электросетевые стройки в полном объеме
+            своевременно обеспечиваются качественной проектной документацией.
+            Своевременная разработка проектов позволяет заблаговременно
+            размещать заказы на оборудование, сетевые конструкции и основные
+            материалы. Принимаемые проектные решения обеспечивают условия для
+            внедрения прогрессивных строительных технологий.
+            <span className="enter"></span>
+            Действующие распределительные электрические сети напряжением 0,38-35
+            kV в настоящее время практически исчерпали свой расчетный срок
+            службы, и их восстановление и дальнейшее развитие следует
+            осуществлять с учетом новых технологических решений на уровне
+            мировых стандартов и современных достижений, заложенных в
+            изготовляемым электротехническими предприятиями новом оборудовании и
+            строительных конструкциях.
+            <span className="enter"></span>В мировой практике получили
+            распространение следующие новые технические расширения, которые
+            начали применять в АО «O'zenergoinjiniring» :
+            <span className="enter"></span>
+            <ul className="home-page__section5-list">
+              <li>
+                <p className="">
+                  использование при строительстве ВЛ 0,38 kV самонесущих
+                  изолированных проводов (СИП), которые значительно повышают
+                  надежность электроснабжения потребителей, безопасность для
+                  населения и обслуживающего персонала и снижают расходы на
+                  эксплуатацию на 70%;
                 </p>
-              </div>
-            </div>
-            <div className="home-page__section5-box">
-              <span className="home-page__section5-box-img">
-                <div class="home-page__section5-time">
-                  <img src={arrowYel} alt="" />
-                  <p>1992</p>
-                </div>
-                <div class="home-page__section5-time">
-                  <img src={arrowYel} alt="" />
-                  <p>2002</p>
-                </div>
-              </span>
-              <div className="home-page__section5-box-content">
-                <p>
-                  <span className="bold">1992 г.</span> — вошла в состав
-                  Министерства энергетики Узбекистана.
-                  <span className="enter"></span>
-                  <span className="bold">2002 г.</span> — преобразовано в
-                  акционерное общество.
+              </li>
+              <li>
+                <p className="">
+                  применение более современных компактных трансформаторных
+                  подстанций напряжением 6-110 kV;
                 </p>
-              </div>
-            </div>
-            <div className="home-page__section5-box">
-              <span className="home-page__section5-box-img">
-                <div class="home-page__section5-time">
-                  <img src={arrowBlue} alt="" />
-                  <p>2019</p>
-                </div>
-                <div class="home-page__section5-time">
-                  <img src={arrowGreen} alt="" />
-                  <p>Now</p>
-                </div>
-              </span>
-              <div className="home-page__section5-box-content">
-                <p>
-                  <span className="bold">2019 г.</span> — переименовано в
-                  «Узенергоинженеринг» указом Президента Узбекистана.
-                  <span className="enter"></span>
-                  <span className="bold">С 2024 года</span> — входит в состав
-                  UET Group, крупной промышленной группы в Узбекистане.
+              </li>
+              <li>
+                <p className="">
+                  применением более современных изоляторных конструкций для ВЛ и
+                  ПС;
                 </p>
-              </div>
-            </div>
-          </div>
+              </li>
+              <li>
+                <p className="">
+                  применение современного оборудования для СДТУ и системы АИИС
+                  КУЭ и электронных приборов учета электрической энергии;
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  применением новых кабелей 6-110 kV с сшитой изоляцией;
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  новые компьютерные технологии при выполнении
+                  проектно-изыскательских работ.
+                </p>
+              </li>
+            </ul>
+            <span className="enter"></span>
+            Внешнее электроснабжение насосных станций по смягчению отрицательных
+            последствий ожидаемого маловодья.
+            <span className="enter"></span>
+            <ul className="home-page__section5-list">
+              <li>
+                <p className="">
+                  Внешнее электроснабжение Дехканабадского завода калийных
+                  удобрений на базе Тюбегатанского месторождения калийных солей.
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  Внешнее электроснабжение объектов Зармитанского месторождения.
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  Резервное электроснабжение приграничных объектов.
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  Внешнее электроснабжение объектов строительства участка
+                  Кандымской группы месторождений газа в Бухарской области.
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  Внешнее электроснабжение инвестиционных объектов нефтегазового
+                  комплекса Республики Узбекистан.
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  Электроснабжение школ, колледжей и врачебных пунктов во многих
+                  районах Республики Узбекистан.
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  Электроснабжение строящихся новых объектов железной дороги
+                  республики, включая проектирование ВЛ 110 kV для тяговых
+                  подстанций, и реконструкцию переходов ВЛ-6-220-500 kV через
+                  магистральные автодороги 1 категории..
+                </p>
+              </li>
+            </ul>
+            <span className="enter"></span>
+            АО «O'zenergoinjiniring» принимал участие в проектировании линий
+            электропередач 10 - 110 kV и подстанций напряжением 35 - 110 kV для
+            объектов с иностранными инвестициями, строительство которых
+            выполнялось с 1993 года и продолжается в настоящее время.
+            <span className="enter"></span>
+            АО «O'zenergoinjiniring» участвует в реализации программ,
+            предусмотренных Постановлениями Правительства Республики Узбекистан,
+            включая инвестиционные проекты ,а именно:
+            <span className="enter"></span>
+              <ul className="home-page__section5-list">
+              <li>
+                <p className="">
+                  Внешнее электроснабжение насосных станций по смягчению отрицательных последствий ожидаемого маловодья.
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  Внешнее электроснабжение Дехканабадского завода калийных удобрений на базе Тюбегатанского месторождения калийных солей.
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  Внешнее электроснабжение объектов Зармитанского месторождения.
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  Резервное электроснабжение приграничных объектов.
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  Внешнее электроснабжение объектов строительства участка Кандымской группы месторождений газа в Бухарской области. 
+                </p>
+              </li>
+              <li>
+                <p className="">
+                  Внешнее электроснабжение инвестиционных объектов нефтегазового комплекса Республики Узбекистан.
+                </p>
+              </li>
+              <li>
+                <p className="">
+                 Электроснабжение школ, колледжей и врачебных пунктов во многих районах Республики Узбекистан.
+                </p>
+              </li>
+              <li>
+                <p className="">
+                 Электроснабжение строящихся новых объектов железной дороги республики, включая проектирование ВЛ 110 kV для тяговых подстанций, и реконструкцию переходов ВЛ-6-220 kV через магистральные автодороги 1 категории.
+                </p>
+              </li>
+            </ul>
+            <span className="enter"></span>
+            АО «O'zenergoinjiniring»  принимал участие в проектировании линий электропередач 10 - 110 kV и подстанций напряжением 35 - 110 kV для объектов с иностранными инвестициями, строительство которых выполнялось с 1993 года и продолжается в настоящее время.
+          </p>
+          <img src={sert7} alt="" />
         </div>
       </section>
-      <section className="home-page__section6">
+      {/* <section className="home-page__section6">
         <h2 className="main-title">
           Наши <span>проекты</span>
         </h2>
@@ -294,11 +399,7 @@ const Home = () => {
             <ul className="home-page__section6-project1-list">
               <li>
                 <p>
-                  РП "Строительство ВЛ 220 kV на территории СЭЗ "Ургут" со
-                  строительством новой ПС 220 kV мощностью 2х125 МВА для
-                  повышения надежности электроснабжения потребителей
-                  электроэнергии, расположенных на массивах "Мерганча",
-                  "Сариктепа".
+                 РП "Реконструкция участка существующей ВЛ 220 kV "Л-Ю-К" в месте пересечения с надземным метрополитеном на участке между станциями "Куйлюк" и "Кипчак".
                 </p>
                 <span>2021 год.</span>
               </li>
@@ -309,7 +410,7 @@ const Home = () => {
             <ul className="home-page__section6-project1-list">
               <li>
                 <p>
-                  ""Схемы внешнего электроснабжения проекта "Электрификация железнодорожной линии Бухара-Ургенч-Хива""
+                 РП «Выдача мощности, строящейся по принципу государственно-частного партнерства тепловой электростанции мощностью 1 500 МВт в Сырдарьинской области с выполнением схемы «Заход-Выход» ВЛ 500 kV Л-521, Л-550 (≈14,25 km) на ОРУ-500 Новой СДТЭС, «Заход-Выход» ВЛ 220 kV Л-М-2, Л-М-4, Л-20-Кс (≈1,13 km), переключением ВЛ Л-М-5, Л-М-6 (≈0,4 km) на ОРУ-220 kV Новой СДТЭС»
                 </p>
                 <span>2021 год.</span>
               </li>
@@ -320,7 +421,7 @@ const Home = () => {
             <ul className="home-page__section6-project1-list">
               <li>
                 <p>
-                 Схема внешнего электроснабжения проекта: "Расширение действую-щего производства кальциниро-ванной соды на 250 тыс. тонн в год на СП ООО "Кунградский содо-вый завод".
+                 РД "Модернизация и реконструкция подстанций магистральных сетей. I фаза. ПС 220/110/35/6 kV "Бухара" Строительство здания лаборатории для РЗ и дополнительных служб.
                 </p>
                 <span>2021 год.</span>
               </li>
@@ -331,7 +432,7 @@ const Home = () => {
             <ul className="home-page__section6-project1-list">
               <li>
                 <p>
-                  РП "Реконструкция подстанции 110/10-10 kV "ДНС-2" с переводом на напряжение 220/110/35/10 kV в Зарбдорском районе Джизакской области".
+                  РП «Расширение ПС 220 kV «Чупон Ота» с установкой АТ-5 и строительством ВЛ 220 kV в Самаркандской области».
                 </p>
                 <span>2021 год.</span>
               </li>
@@ -342,7 +443,7 @@ const Home = () => {
             <ul className="home-page__section6-project1-list">
               <li>
                 <p>
-                 РП "Внешнее электроснабжение "Yunusobod Business City" и улучшение электроснабжения Юнусабадского района г. Ташкента".
+                 "Модернизация и реконструкция подстанций магистральных сетей". 1 фаза. ПС 220/110/10 kV "Юлдуз".
                 </p>
                 <span>2021 год.</span>
               </li>
@@ -353,7 +454,7 @@ const Home = () => {
             <ul className="home-page__section6-project1-list">
               <li>
                 <p>
-                  РП "Строительство МГЭС "Шаудар" на канале Даргом и МГЭС на ПК135+50 на канале Даргом в Самаркандской области (строительство ВЛ 35 kV и ВЛ 110 kV)".
+                  РП "Перезаводка ВЛ 220 kV "Л-C-C" (по схеме "Заход-Выход") на технологическую ПС 220 kV "Azia metall prof" в Самаркандской области".
                 </p>
                 <span>2021 год.</span>
               </li>
@@ -364,14 +465,36 @@ const Home = () => {
             <ul className="home-page__section6-project1-list">
               <li>
                 <p>
-                  РП "Выдача мощности в энергосистему от станций по производству электроэнергии от свалочного газа, образующегося на полигонах бытовых отходов "Майдонтол".
+                  РД "Модернизация и реконструкция подстанций магистральных сетей". I фаза. ПС 220/110/35/10/6 kV "Шерабад".
+                </p>
+                <span>2021 год.</span>
+              </li>
+            </ul>
+          </div>
+          <div className="home-page__section6-project1">
+            <img src={project8} alt="" />
+            <ul className="home-page__section6-project1-list">
+              <li>
+                <p>
+                  РП "Строительство МГЭС "Шаудар" на канале Даргом и МГЭС на ПК135+50 на канале Даргом в Самаркандской области (строительство ВЛ 35 kV и ВЛ 110 kV)".
+                </p>
+                <span>2021 год.</span>
+              </li>
+            </ul>
+          </div>
+          <div className="home-page__section6-project1">
+            <img src={project9} alt="" />
+            <ul className="home-page__section6-project1-list">
+              <li>
+                <p>
+                 РП "Внешнее электроснабжение "Yunusobod Business City" и улуч-шение электроснабжения Юнуса-бадского района г. Ташкента".
                 </p>
                 <span>2021 год.</span>
               </li>
             </ul>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

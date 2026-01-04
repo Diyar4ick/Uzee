@@ -81,8 +81,8 @@ const Header = () => {
               {activeMenu === 'about' && (
                 <ul className="header__nav-dropdown">
                 <li><NavLink to="/">Об организации </NavLink></li>
-                <li><a href="#">Text </a></li>
-                <li><a href="#">Text </a></li>
+                <li><NavLink to="/history">История</NavLink></li>
+                <li><NavLink to="/structure">Структура общества</NavLink></li>
                 <li><a href="#">Text </a></li>
               </ul>
               )}

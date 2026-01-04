@@ -9,6 +9,8 @@ import Service3 from "./components/Services/Service3"
 import Activity from "./components/Activity/Activity"
 import Experience from "./components/Experience/Experience"
 import Advanteges from "./components/Advantages/Advanteges"
+import History from "./components/Home/History"
+import Structure from "./components/Home/Structure"
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
        <Header/>
        <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/history" element={<History/>}/>
+        <Route path="/structure" element={<Structure/>}/>
         <Route path="/activity" element={<Activity/>}/>
         <Route path="/exp" element={<Experience/>}/>
         <Route path="/adv" element={<Advanteges/>}/>

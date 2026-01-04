@@ -249,6 +249,129 @@
     }
   }
   &__section5 {
+    .container {
+      @include media(550) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    &-list {
+      padding: 0 20px;
+      li {
+        padding: 5px;
+        list-style: disc;
+      }
+    }
+    img {
+      @include media(550) {
+        max-width: 300px;
+      }
+    }
+  }
+  // &__section6 {
+  //   margin: 50px 0;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   .container {
+  //     display: flex;
+  //     gap: 20px;
+  //     flex-wrap: wrap;
+  //     justify-content: center;
+  //     padding: 30px 0;
+  //   }
+  //   &-project1 {
+  //     max-width: 400px;
+  //     width: 100%;
+  //     height: 330px;
+  //     position: relative;
+  //     display: flex;
+  //     align-items: end;
+  //     object-fit: cover;
+  //     justify-content: center;
+  //     cursor: pointer;
+  //     transition: 0.2s;
+
+  //     @include media(550) {
+  //       max-width: 350px;
+  //       height: 300px;
+  //     }
+  //     @include media(400) {
+  //       max-width: 320px;
+  //       height: 250px;
+  //     }
+  //     &:hover &-list {
+  //       transform: translateY(-20%);
+  //       opacity: 1;
+  //     }
+  //     &:hover {
+  //       background: #00000030;
+  //     }
+  //     img {
+  //       position: absolute;
+  //       width: 100%;
+  //       height: 100%;
+  //       z-index: -100;
+  //     }
+  //     &-list {
+  //       display: flex;
+  //       flex-direction: column;
+  //       transform: translateY(100%);
+  //       transition: transform 0.6s, opacity 0.2s;
+  //       opacity: 0;
+  //       padding: 0 10px;
+  //       @include media(550) {
+  //         padding-left: 20px;
+  //       }
+  //       li {
+  //         display: flex;
+  //         flex-direction: column;
+  //         gap: 20px;
+  //       }
+  //       p {
+  //         color: white;
+  //         font-size: 16px;
+  //         text-shadow: 2px 2px 4px #000000;
+  //         font-weight: 700;
+  //       }
+  //       span {
+  //         color: white;
+  //         font-size: 14px;
+  //       }
+  //     }
+  //   }
+  // }
+}
+.history-page {
+  margin: 30px 0;
+  &__section1 {
+    h3 {
+      @include media(950) {
+        text-align: center;
+      }
+    }
+    &-content {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      padding: 20px 0;
+      @include media(950) {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+      }
+      img {
+        max-width: 350px;
+        width: 100%;
+        object-fit: contain;
+        @include media(450) {
+          max-width: 300px;
+        }
+      }
+    }
+  }
+  &__section2 {
     display: flex;
     .iconBannerImg {
       @include media(700) {
@@ -313,77 +436,12 @@
       }
     }
   }
-  &__section6 {
-    margin: 50px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .container {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 30px 0;
-    }
-    &-project1 {
-      max-width: 400px;
+}
+.structure-page {
+  margin: 30px 0;
+  &__section1 {
+    img {
       width: 100%;
-      height: 330px;
-      position: relative;
-      display: flex;
-      align-items: end;
-      object-fit: cover;
-      justify-content: center;
-      cursor: pointer;
-      transition: 0.2s;
-
-      @include media(550) {
-        max-width: 350px;
-        height: 300px;
-      }
-      @include media(400) {
-        max-width: 320px;
-        height: 250px;
-      }
-      &:hover &-list {
-        transform: translateY(-20%);
-        opacity: 1;
-      }
-      &:hover {
-        background: #00000030;
-      }
-      img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        z-index: -100;
-      }
-      &-list {
-        display: flex;
-        flex-direction: column;
-        transform: translateY(100%);
-        transition: transform 0.6s, opacity 0.2s;
-        opacity: 0;
-        padding: 0 10px;
-        @include media(550) {
-          padding-left: 20px;
-        }
-        li {
-          display: flex;
-          flex-direction: column;
-          gap: 20px;
-        }
-        p {
-          color: white;
-          font-size: 16px;
-          text-shadow: 2px 2px 4px #000000;
-          font-weight: 700;
-        }
-        span {
-          color: white;
-          font-size: 14px;
-        }
-      }
     }
   }
 }
