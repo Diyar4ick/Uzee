@@ -1,4 +1,14 @@
 import img1 from "../../assets/images/structure-img.jpg";
+import department1 from "../../assets/images/structure/department-img1.jpg";
+import department2 from "../../assets/images/structure/department-img2.jpg";
+import department3 from "../../assets/images/structure/department-img3.jpg";
+import department4 from "../../assets/images/structure/department-img4.jpg";
+import department5 from "../../assets/images/structure/department-img5.jpg";
+import department6 from "../../assets/images/structure/department-img6.jpg";
+import department7 from "../../assets/images/structure/department-img7.jpg";
+import department8 from "../../assets/images/structure/department-img8.jpg";
+
+import branch1 from "../../assets/images/structure/branch-img1.jpg";
 
 const Structure = () => {
   return (
@@ -328,6 +338,273 @@ const Structure = () => {
           общества, повышении научного уровня и актуальности выполняемых
           исследований, их инновационной направленности.
         </p>
+      </section>
+      <section className="structure-page__section2">
+        <div className="container">
+          <h3 className="main-title">Отделы</h3>
+          <div className="structure-page__section2-items">
+            <div className="structure-page__section2-card">
+              <img src={department1} alt="" />
+              <div className="structure-page__section2-card-content">
+                <h3>Отдел инженерных изысканий</h3>
+                <p>
+                  Отдел руководствуется действующими законами, постановлениями и
+                  распоряжениями правительства; приказами, инструкциями и
+                  указаниями АО Узбекэнерго, Госархитектстроя, Государственного
+                  геодезического надзора Р.Узбекистана, инструкцией по выбору
+                  площадок для строительства понижающих подстанций, инструкцией
+                  по изысканиям трасс воздушных линий 35-750 кВ и ВЛ 6-10 кВ и
+                  инструкцией по изысканиям площадок понижающих подстанций
+                  35-500 кВ .
+                </p>
+                <h4>Начальник отдела - Раджабов Рустам Эгамбердиевич</h4>
+                <ul className="structure-page__section2-numlist">
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Контактные</span> данные
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Телефон</span>: (+998 71) 291-87-84
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Электронная почта</span>: oiz@uzenergoeng.uz
+                    </p>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+            <div className="structure-page__section2-card">
+              <img src={department2} alt="" />
+              <div className="structure-page__section2-card-content">
+                <h3>Отдел релейной защиты и автоматики, средств диспетчерского и технологического управления</h3>
+                <p>
+                 Основными задачами отдела являются: - разработка проектной документации по части релейной защиты ВЛ 35/110/220 kV; ПС 35/110/220 kV; ДЭС; РПБ; ТП.
+                </p>
+                <h4>Начальник отдела - Захидов Аброр</h4>
+                <ul className="structure-page__section2-numlist">
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Контактные</span> данные
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Телефон</span>: (+998 71) 291-87-93
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Электронная почта</span>: orzasdtu@uzenergoeng.uz
+                    </p>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+            <div className="structure-page__section2-card">
+              <img src={department3} alt="" />
+              <div className="structure-page__section2-card-content">
+                <h3>Отдел перспективного развития и расчётов</h3>
+                <p>
+                 Отдел является генеральным проектировщиком по выполнению схем развития электрических сетей 110-35-10-6-0,4 kV для электроснабжения.
+                </p>
+                <h4>Начальник отдела - Нурматов Илхом</h4>
+                <ul className="structure-page__section2-numlist">
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Контактные</span> данные
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Телефон</span>: (+998 71) 291-87-88
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Электронная почта</span>: opr@uzenergoeng.uz
+                    </p>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+            <div className="structure-page__section2-card">
+              <img src={department4} alt="" />
+              <div className="structure-page__section2-card-content">
+                <h3>Отдел ресурсно-сметной документации</h3>
+                <p>
+                  Отдел занимается разработкой ресурсно-сметной документации.
+                </p>
+                <h4>Начальник отдела - Янкуев Усман Мусаевич</h4>
+                <ul className="structure-page__section2-numlist">
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Контактные</span> данные
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Телефон</span>: (+998 71) 291-87-89
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Электронная почта</span>: osmet@uzenergoeng.uz
+                    </p>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+            <div className="structure-page__section2-card">
+              <img src={department5} alt="" />
+              <div className="structure-page__section2-card-content">
+                <h3>Отдел информационных и комммуникационных технологий.</h3>
+                <p>
+                  Отдел занимается техническим обслуживанием и системным программным обеспечением компьютерной техники, разработкой программ и расчетами электрических сетей.
+                </p>
+                <h4>Начальник отдела - Махмудов Шухрат Шаятович </h4>
+                <ul className="structure-page__section2-numlist">
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Контактные</span> данные
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Телефон</span>: (+998 71) 291-87-30
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Электронная почта</span>: oikt@uzenergoeng.uz
+                    </p>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+            <div className="structure-page__section2-card">
+              <img src={department6} alt="" />
+              <div className="structure-page__section2-card-content">
+                <h3>Отдел контроля качества, соблюдения стандартов и функционирования СМК.</h3>
+                <p>
+                 Главной задачей отдела контроля качества, соблюдения стандартов и функционирования СМК является предотвращение некачественного выполнения проектно-сметной документации и достижение полного соответствия требованиям нормативных документов.
+                </p>
+                <h4>Начальник отдела - Вакант</h4>
+                <ul className="structure-page__section2-numlist">
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Контактные</span> данные
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Телефон</span>: (+998 71) 291-87-85
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Электронная почта</span>: okk@uzenergoeng.uz
+                    </p>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+            <div className="structure-page__section2-card">
+              <img src={department7} alt="" />
+              <div className="structure-page__section2-card-content">
+                <h3>Отдел подстанций</h3>
+                <p>
+                  Отдел руководствуется действующими законами, постановлениями и распоряжениями правительства; приказами, инструкциями и указаниями АО Узбекэнерго, Госархитектстроя, Государственного геодезического надзора Р.Узбекистана, инструкцией по выбору площадок для строительства понижающих подстанций, инструкцией по изысканиям трасс воздушных линий 35-750 кВ и ВЛ 6-10 кВ и инструкцией по изысканиям площадок понижающих подстанций 35-500 кВ .
+                </p>
+                <h4>Начальник отдела - Нигматалиев Шухрат</h4>
+                <ul className="structure-page__section2-numlist">
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Контактные</span> данные
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Телефон</span>: (+998 71) 291-87-87
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Электронная почта</span>: oesps@uzenergoeng.uz
+                    </p>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+            <div className="structure-page__section2-card">
+              <img src={department8} alt="" />
+              <div className="structure-page__section2-card-content">
+                <h3>Отдел линий электропередач</h3>
+                <p>
+                  Отдел руководствуется действующими законами, постановлениями и распоряжениями правительства; приказами, инструкциями и указаниями АО Узбекэнерго, Госархитектстроя, Государственного геодезического надзора Р.Узбекистана, инструкцией по выбору площадок для строительства понижающих подстанций, инструкцией по изысканиям трасс воздушных линий 35-750 кВ и ВЛ 6-10 кВ и инструкцией по изысканиям площадок понижающих подстанций 35-500 кВ .
+                </p>
+                <h4>Начальник отдела - Каримов Аброр</h4>
+                <ul className="structure-page__section2-numlist">
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Контактные</span> данные
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Телефон</span>: (+998 71) 291-87-87
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Электронная почта</span>: oesvl@uzenergoeng.uz
+                    </p>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+          <h3 className="main-title">Филиалы</h3>
+          <div className="structure-page__section2-card">
+              <img src={branch1} alt="" />
+              <div className="structure-page__section2-card-content">
+                <h3>Самаркандский филиал комплексного проектирования</h3>
+                <p>
+               Филиал руководствуется действующими законами, постановлениями и распоряжениями правительства; приказами, инструкциями и указаниями АО Узбекэнерго, Госархитектстроя, Государственного геодезического надзора Р.Узбекистана, инструкцией по выбору площадок для строительства понижающих подстанций.
+                </p>
+                <h4>Начальник филиала - Кучкаров Фахриддин Файзиевич</h4>
+                <ul className="structure-page__section2-numlist">
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Контактные</span> данные
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Телефон</span>: (+998 66) 229-17-96
+                    </p>
+                  </li>
+                  <li>
+                    <p className="structure-page__section2-numitem">
+                      <span>Электронная почта</span>: samfkp@uzenergoeng.uz
+                    </p>
+                  </li>
+                </ul>
+                
+              </div>
+          </div>
+        </div>
       </section>
     </div>
   );

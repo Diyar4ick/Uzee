@@ -77,13 +77,13 @@ const Header = () => {
           </NavLink>
           <ul className={`header__nav-list ${burger ? "active" : ""}`}>
             <li className="header__nav-item" onClick={() => toggleMenu('about')}>
-              <button type="submit">Об организации ▾</button>
+              <button type="submit">Об организации ▾</button> 
               {activeMenu === 'about' && (
                 <ul className="header__nav-dropdown">
                 <li><NavLink to="/">Об организации </NavLink></li>
                 <li><NavLink to="/history">История</NavLink></li>
                 <li><NavLink to="/structure">Структура общества</NavLink></li>
-                <li><a href="#">Text </a></li>
+                <li><NavLink to="/management">Руководство</NavLink></li>
               </ul>
               )}
             </li>

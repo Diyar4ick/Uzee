@@ -11,6 +11,7 @@ import Experience from "./components/Experience/Experience"
 import Advanteges from "./components/Advantages/Advanteges"
 import History from "./components/Home/History"
 import Structure from "./components/Home/Structure"
+import Management from "./components/Home/Management"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/history" element={<History/>}/>
         <Route path="/structure" element={<Structure/>}/>
+        <Route path="/management" element={<Management/>}/>
         <Route path="/activity" element={<Activity/>}/>
         <Route path="/exp" element={<Experience/>}/>
         <Route path="/adv" element={<Advanteges/>}/>
