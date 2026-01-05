@@ -533,6 +533,10 @@
 .manage-page {
   h3 {
     margin-top: 30px;
+    @include media(500) {
+      font-size: 20px;
+      text-align: center;
+    }
   }
   &__content {
     display: flex;
@@ -548,23 +552,42 @@
       border: solid 1px rgb(226, 226, 226);
       border-radius: 5px;
       padding: 10px;
+
+      @include media(650) {
+        gap: 50px;
+      }
+      @include media(500) {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+      }
       img {
         max-width: 150px;
+        object-fit: contain;
       }
       div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 10px;
+        @include media(500) {
+          align-items: center;
+        }
         h4 {
           font-size: 20px;
           text-transform: uppercase;
+          @include media(500) {
+            text-align: center;
+          }
         }
         span {
           font-weight: 700;
         }
         p {
           font-size: 15px;
+          @include media(500) {
+            text-align: center;
+          }
         }
         ul {
           display: flex;
@@ -591,7 +614,6 @@
       background: white;
     }
   }
-
   &__dropdown {
     position: fixed;
     background: #00000053;
@@ -605,6 +627,24 @@
     flex-direction: column;
     align-items: end;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    @include media(1250) {
+      right: 20px;
+    }
+    @include media(1000) {
+      max-width: 600px;
+      overflow-y: scroll;
+      max-height: 80vh;
+    }
+    @include media(650) {
+      max-width: 400px;
+      overflow-y: scroll;
+      max-height: 80vh;
+    }
+    @include media(550) {
+      max-width: 300px;
+      overflow-y: scroll;
+      max-height: 80vh;
+    }
     &-burger {
       width: 30px;
       height: 22px;
