@@ -84,6 +84,8 @@ const Header = () => {
                 <li><NavLink to="/history">История</NavLink></li>
                 <li><NavLink to="/structure">Структура общества</NavLink></li>
                 <li><NavLink to="/management">Руководство</NavLink></li>
+                <li><NavLink to="/vacancies">Вакансии</NavLink></li>
+                <li><NavLink to="/public-events">Публичные мероприятия, организованные обществом</NavLink></li>
               </ul>
               )}
             </li>

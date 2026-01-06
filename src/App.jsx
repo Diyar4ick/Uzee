@@ -12,6 +12,8 @@ import Advanteges from "./components/Advantages/Advanteges"
 import History from "./components/Home/History"
 import Structure from "./components/Home/Structure"
 import Management from "./components/Home/Management"
+import Vacancies from "./components/Home/Vacancies"
+import PublicEvents from "./components/Home/PublicEvents"
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
         <Route path="/history" element={<History/>}/>
         <Route path="/structure" element={<Structure/>}/>
         <Route path="/management" element={<Management/>}/>
+        <Route path="/vacancies" element={<Vacancies/>}/>
+        <Route path="/public-events" element={<PublicEvents/>}/>
         <Route path="/activity" element={<Activity/>}/>
         <Route path="/exp" element={<Experience/>}/>
         <Route path="/adv" element={<Advanteges/>}/>
