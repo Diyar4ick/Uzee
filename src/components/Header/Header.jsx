@@ -8,9 +8,9 @@ import search from "../../assets/images/generalIcons/search.svg";
 import logo from "../../assets/images/logo.png";
 // import banner from "../../assets/images/banner.png";
 // import banner2 from "../../assets/images/banner-2.jpg";
-import bannerVideo from '../../assets/videos/bannerVideo.MP4'
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+// import MainBanner from "../Banners/MainBanner";
 
 const Header = () => {
   // const bannerImages = [
@@ -33,8 +33,6 @@ const Header = () => {
   const toggleMenu = (name) => {
     setActiveMenu(activeMenu === name ? null : name);
   };
-  
-
   return (
     <header className="header">
       <div className="header__promo">
@@ -136,38 +134,8 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="header__banner">
-        <div className="header__banner-first">
-          {/* <img src={bannerImages[index]} alt="" className="header__banner-img" /> */}
-          <video className="header__banner-video" src={bannerVideo} autoPlay loop muted playsInline></video>
-          <div className="header__banner-black">
-            <div className="container">
-              <h1>
-                Проектирование воздушных и кабельных линий напряжением до 500кВ{" "}
-                <span>UZEE</span>
-              </h1>
-            </div>
-          </div>
-        </div>
-        <div className="header__banner-second">
-          <div className="container">
-            <p>
-              <span className="header__banner-second-span1">
-                <span className="header__banner-second-span2">70</span>
-                <span className="header__banner-second-span3">
-                  <span className="header__banner-second-span4">лет</span>{" "}
-                  успешной работы
-                </span>
-              </span>
-              Электрическая подстанция – это установка, которая служит для
-              преобразования и распределение энергии. В ее составе выделяют
-              следующие конструктивные части: трансформаторы, распределительные
-              устройства повышенного и пониженного напряжения, и вспомогательные
-              устройства.
-            </p>
-          </div>
-        </div>
-      </div>
+
+      {/* <MainBanner/> */}
     </header>
   );
 };

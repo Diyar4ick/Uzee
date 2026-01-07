@@ -9,9 +9,12 @@ import department7 from "../../assets/images/structure/department-img7.jpg";
 import department8 from "../../assets/images/structure/department-img8.jpg";
 
 import branch1 from "../../assets/images/structure/branch-img1.jpg";
+import StructureBanner from "../Banners/StructureBanner";
 
 const Structure = () => {
   return (
+    <>
+    <StructureBanner/>
     <div className="structure-page">
       <section className="structure-page__section1 container">
         <h3 className="main-title">
@@ -607,6 +610,7 @@ const Structure = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

@@ -10,6 +10,7 @@ import homeBanner from "../../assets/images/homePages/homePageBanner.jpg";
 // import adventages from "../../assets/images/companyIcons/company-advantages.jpg";
 
 import sert7 from '../../assets/images/serts/sert7.jpg'
+import MainBanner from "../Banners/MainBanner";
 
 // import project1 from "../../assets/images/projects/project1.jpg";
 // import project2 from "../../assets/images/projects/project2.jpg";
@@ -25,6 +26,8 @@ import sert7 from '../../assets/images/serts/sert7.jpg'
 
 const Home = () => {
   return (
+    <>
+    <MainBanner/>
     <div className="home-page">
       <section className="home-page__section1">
         <img src={homePageIconImg} alt="" className="iconBannerImg" />
@@ -496,6 +499,7 @@ const Home = () => {
         </div>
       </section> */}
     </div>
+    </>
   );
 };
 
