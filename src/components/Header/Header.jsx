@@ -92,9 +92,8 @@ const Header = () => {
               {activeMenu === 'corpotation' && (
                 <ul className="header__nav-dropdown">
                 <li><NavLink to="/activity">Услуги </NavLink></li>
-                <li><a href="#">Text </a></li>
-                <li><a href="#">Text </a></li>
-                <li><a href="#">Text </a></li>
+                <li><NavLink to="/projects">Проекты </NavLink></li>
+                <li><NavLink to="/tenders">Конкурсы и закупки </NavLink></li>
               </ul>
               )}
             </li>

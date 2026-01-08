@@ -14,6 +14,9 @@ import Structure from "./components/Home/Structure"
 import Management from "./components/Home/Management"
 import Vacancies from "./components/Home/Vacancies"
 import PublicEvents from "./components/Home/PublicEvents"
+import Projects from "./components/Activity/Projects"
+import Tenders from "./components/Activity/Tenders"
+import Tender1 from "./components/Activity/TenderPages/Tender1"
 
 function App() {
 
@@ -28,12 +31,15 @@ function App() {
         <Route path="/vacancies" element={<Vacancies/>}/>
         <Route path="/public-events" element={<PublicEvents/>}/>
         <Route path="/activity" element={<Activity/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/tenders" element={<Tenders/>}/>
         <Route path="/exp" element={<Experience/>}/>
         <Route path="/adv" element={<Advanteges/>}/>
         <Route path="/contacts" element={<Contacts/>}/>
         <Route path="/service-1" element={<Service1/>}/>
         <Route path="/service-2" element={<Service2/>}/>
         <Route path="/service-3" element={<Service3/>}/>
+        <Route path="/tender1" element={<Tender1/>}/>
        </Routes>
        <Footer/>
     </Router>
