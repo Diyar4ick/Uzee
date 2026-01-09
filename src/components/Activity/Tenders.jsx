@@ -41,7 +41,7 @@ const Tenders = () => {
               г.Ташкент, улица Мухтара Ашрафи, первый переулок, дом № 9, а также
               по тел. 291-87-24.
             </p>
-            <Link to="#" className="tenders-page__card-link">
+            <Link to="/tender2" className="tenders-page__card-link">
               Посмотреть
             </Link>
           </div>
@@ -65,10 +65,10 @@ const Tenders = () => {
               по тел. 291-87-24.
             </p>
             <div className="tenders-page__card-links">
-              <Link to="#" className="tenders-page__card-link">
+              <Link to="/tender3" className="tenders-page__card-link">
                 Посмотреть
               </Link>
-              <a href="" download="" className="tenders-page__card-link">
+              <a href="src/assets/tenderDocuments/оценка.zip" download="оценка.zip" className="tenders-page__card-link">
                 Документы
               </a>
             </div>
@@ -90,7 +90,7 @@ const Tenders = () => {
               г.Ташкент, улица Мухтара Ашрафи, первый переулок, дом № 9, а также
               по тел. 291-87-24.
             </p>
-            <Link to="#" className="tenders-page__card-link">
+            <Link to="/tender4" className="tenders-page__card-link">
               Посмотреть
             </Link>
           </div>
@@ -109,10 +109,10 @@ const Tenders = () => {
               по тел. 291-87-24.
             </p>
             <div className="tenders-page__card-links">
-              <Link to="#" className="tenders-page__card-link">
+              <Link to="/tender5" className="tenders-page__card-link">
                 Посмотреть
               </Link>
-              <a href="" download="" className="tenders-page__card-link">
+              <a href="src/assets/tenderDocuments/msfo.rar" download="msfo.rar" className="tenders-page__card-link">
                 Документы
               </a>
             </div>
@@ -131,7 +131,7 @@ const Tenders = () => {
               г.Ташкент, улица Мухтара Ашрафи, первый переулок, дом № 9, а также
               по тел. 291-87-24.
             </p>
-            <Link to="#" className="tenders-page__card-link">
+            <Link to="/tender6" className="tenders-page__card-link">
               Посмотреть
             </Link>
           </div>
@@ -149,9 +149,9 @@ const Tenders = () => {
               г.Ташкент, улица Мухтара Ашрафи, первый переулок, дом № 9, а также
               по тел. 291-87-24.
             </p>
-            <Link to="#" className="tenders-page__card-link">
-              Посмотреть
-            </Link>
+            <a href="src/assets/tenderDocuments/gnss.rar" download='gnss.rar' className="tenders-page__card-link">
+              Документы
+            </a>
           </div>
         </div>
         <div className="tenders-page__card">
@@ -167,9 +167,9 @@ const Tenders = () => {
               г.Ташкент, улица Мухтара Ашрафи, первый переулок, дом № 9, а также
               по тел. 291-87-24.
             </p>
-            <Link to="#" className="tenders-page__card-link">
-              Посмотреть
-            </Link>
+            <a href="src/assets/tenderDocuments/digsilent.rar" download='digsilent.rar' className="tenders-page__card-link">
+              Документы
+            </a>
           </div>
         </div>
         <div className="tenders-page__card">
@@ -185,9 +185,9 @@ const Tenders = () => {
               г.Ташкент, улица Мухтара Ашрафи, первый переулок, дом № 9, а также
               по тел. 291-87-24.
             </p>
-            <Link to="#" className="tenders-page__card-link">
-              Посмотреть
-            </Link>
+            <a href="src/assets/tenderDocuments/samfksfasad.rar" download='samfksfasad.rar' className="tenders-page__card-link">
+              Документы
+            </a>
           </div>
         </div>
       </div>
@@ -196,3 +196,4 @@ const Tenders = () => {
 };
 
 export default Tenders;
+ 

@@ -17,6 +17,11 @@ import PublicEvents from "./components/Home/PublicEvents"
 import Projects from "./components/Activity/Projects"
 import Tenders from "./components/Activity/Tenders"
 import Tender1 from "./components/Activity/TenderPages/Tender1"
+import Tender2 from "./components/Activity/TenderPages/Tender2"
+import Tender3 from "./components/Activity/TenderPages/Tender3"
+import Tender4 from "./components/Activity/TenderPages/Tender4"
+import Tender5 from "./components/Activity/TenderPages/Tender5"
+import Tender6 from "./components/Activity/TenderPages/Tender6"
 
 function App() {
 
@@ -27,7 +32,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/history" element={<History/>}/>
         <Route path="/structure" element={<Structure/>}/>
-        <Route path="/management" element={<Management/>}/>
+        <Route path="/management" element={<Management/>}/> 
         <Route path="/vacancies" element={<Vacancies/>}/>
         <Route path="/public-events" element={<PublicEvents/>}/>
         <Route path="/activity" element={<Activity/>}/>
@@ -40,6 +45,11 @@ function App() {
         <Route path="/service-2" element={<Service2/>}/>
         <Route path="/service-3" element={<Service3/>}/>
         <Route path="/tender1" element={<Tender1/>}/>
+        <Route path="/tender2" element={<Tender2/>}/>
+        <Route path="/tender3" element={<Tender3/>}/>
+        <Route path="/tender4" element={<Tender4/>}/>
+        <Route path="/tender5" element={<Tender5/>}/>
+        <Route path="/tender6" element={<Tender6/>}/>
        </Routes>
        <Footer/>
     </Router>
