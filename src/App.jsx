@@ -22,6 +22,16 @@ import Tender3 from "./components/Activity/TenderPages/Tender3"
 import Tender4 from "./components/Activity/TenderPages/Tender4"
 import Tender5 from "./components/Activity/TenderPages/Tender5"
 import Tender6 from "./components/Activity/TenderPages/Tender6"
+import CorpManage from "./components/Experience/CorpManage"
+import SignFacts from "./components/Experience/SignFacts"
+import SignFact2024 from "./components/Experience/SignFactsPages/SignFact2024"
+import SignFact2023 from "./components/Experience/SignFactsPages/SignFact2023"
+import SignFact2022 from "./components/Experience/SignFactsPages/SignFact2022"
+import SignFact2021 from "./components/Experience/SignFactsPages/SignFact2021"
+import SignFact2020 from "./components/Experience/SignFactsPages/SignFact2020"
+import SignFact2019 from "./components/Experience/SignFactsPages/SignFact2019"
+import Reports from "./components/Experience/Reports"
+import FXDTable from "./components/Experience/FXDTable"
 
 function App() {
 
@@ -39,6 +49,10 @@ function App() {
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/tenders" element={<Tenders/>}/>
         <Route path="/exp" element={<Experience/>}/>
+        <Route path="/corp-manage" element={<CorpManage/>}/>
+        <Route path="/significant-facts" element={<SignFacts/>}/>
+        <Route path="/reports" element={<Reports/>}/>
+        <Route path="/FXD-table" element={<FXDTable/>}/>
         <Route path="/adv" element={<Advanteges/>}/>
         <Route path="/contacts" element={<Contacts/>}/>
         <Route path="/service-1" element={<Service1/>}/>
@@ -50,6 +64,12 @@ function App() {
         <Route path="/tender4" element={<Tender4/>}/>
         <Route path="/tender5" element={<Tender5/>}/>
         <Route path="/tender6" element={<Tender6/>}/>
+        <Route path="/sign-fact2024" element={<SignFact2024/>}/>
+        <Route path="/sign-fact2023" element={<SignFact2023/>}/>
+        <Route path="/sign-fact2022" element={<SignFact2022/>}/>
+        <Route path="/sign-fact2021" element={<SignFact2021/>}/>
+        <Route path="/sign-fact2020" element={<SignFact2020/>}/>
+        <Route path="/sign-fact2019" element={<SignFact2019/>}/>
        </Routes>
        <Footer/>
     </Router>

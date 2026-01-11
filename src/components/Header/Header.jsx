@@ -102,9 +102,10 @@ const Header = () => {
               {activeMenu === 'law' && (
                 <ul className="header__nav-dropdown">
                 <li><NavLink to="/exp">Опыт и компетенции </NavLink></li>
-                <li><a href="#">Text </a></li>
-                <li><a href="#">Text </a></li>
-                <li><a href="#">Text </a></li>
+                <li><NavLink to="/corp-manage">Корпоративное управление</NavLink></li>
+                <li><NavLink to="/significant-facts">Существенные факты</NavLink></li>
+                <li><NavLink to="/reports">Годовые и квартальные отчеты</NavLink></li>
+                <li><NavLink to="/FXD-table">Сравнительная таблица ФХД</NavLink></li>
               </ul>
               )}
             </li>
