@@ -106,6 +106,11 @@ const Header = () => {
                 <li><NavLink to="/significant-facts">Существенные факты</NavLink></li>
                 <li><NavLink to="/reports">Годовые и квартальные отчеты</NavLink></li>
                 <li><NavLink to="/FXD-table">Сравнительная таблица ФХД</NavLink></li>
+                <li><NavLink to="/faces">Список аффилированных лиц</NavLink></li>
+                <li><NavLink to="/stratagy">СТРАТЕГИЯ РАЗВИТИЯ ОБЩЕСТВА</NavLink></li>
+                <li><NavLink to="/business-plan">БИЗНЕС ПЛАНЫ ОБЩЕСТВА </NavLink></li>
+                <li><NavLink to="/prospect">Проспект эмиссии </NavLink></li>
+                <li><NavLink to="/autdit-conclusion">АУДИТОРСКИЕ ЗАКЛЮЧЕНИЯ МСФО </NavLink></li>
               </ul>
               )}
             </li>

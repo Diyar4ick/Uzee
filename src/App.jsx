@@ -32,6 +32,11 @@ import SignFact2020 from "./components/Experience/SignFactsPages/SignFact2020"
 import SignFact2019 from "./components/Experience/SignFactsPages/SignFact2019"
 import Reports from "./components/Experience/Reports"
 import FXDTable from "./components/Experience/FXDTable"
+import Faces from "./components/Experience/Faces"
+import Stratagy from "./components/Experience/Stratagy"
+import BusinessPlan from "./components/Experience/BusinessPlan"
+import Prospect from "./components/Experience/Prospect"
+import AutditConc from "./components/Experience/AutditConc"
 
 function App() {
 
@@ -53,6 +58,11 @@ function App() {
         <Route path="/significant-facts" element={<SignFacts/>}/>
         <Route path="/reports" element={<Reports/>}/>
         <Route path="/FXD-table" element={<FXDTable/>}/>
+        <Route path="/faces" element={<Faces/>}/>
+        <Route path="/stratagy" element={<Stratagy/>}/>
+        <Route path="/business-plan" element={<BusinessPlan/>}/>
+        <Route path="/prospect" element={<Prospect/>}/>
+        <Route path="/autdit-conclusion" element={<AutditConc/>}/>
         <Route path="/adv" element={<Advanteges/>}/>
         <Route path="/contacts" element={<Contacts/>}/>
         <Route path="/service-1" element={<Service1/>}/>

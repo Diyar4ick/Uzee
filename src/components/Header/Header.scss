@@ -159,6 +159,10 @@
 
       li {
         padding: 10px 0;
+        a {
+          text-transform: lowercase;
+        }
+          
       }
     }
   }
