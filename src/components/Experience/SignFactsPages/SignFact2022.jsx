@@ -17,7 +17,7 @@ const SignFact2022 = () => {
             лица акционерного общества " АО «O‘ZENERGOINJINIRING».
           </p>
         </div>
-        <div className="corp-manage-page__content">
+        <div className="corp-manage-page__content"> 
           <h3 className="main-title">
             СУЩЕСТВЕННЫЕ ФАКТЫ <span>2022 год</span>
           </h3>
@@ -28,127 +28,127 @@ const SignFact2022 = () => {
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 06 – Решения, принятые высшим органом управления эмитента</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-6.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 19</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 18</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 36 – Изменения в списке аффилированных лиц</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-36.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 08 –Изменение в составе наблюдательного совета, ревизионной комиссии или исполнительного органа</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-8.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 06 – Решения, принятые высшим органом управления эмитента</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-6.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 22 – Получение лицензии на осуществление отдельных видов деятельности</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-22.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 17</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 16</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 15</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 36 – Изменения в списке аффилированных лиц</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-36.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 32 – Начисление доходов по ценным бумагам</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-32.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 08 –Изменение в составе наблюдательного совета, ревизионной комиссии или исполнительного органа</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-8.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 06 – Решения, принятые высшим органом управления эмитента</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-6.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 14</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 35 – Изменения во владении членов исполнительного органа акциями эмитента</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-35.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 06 – Решения, принятые высшим органом управления эмитента</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-6.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг».09 – Изменения в перечне филиалов</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-9.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 10-13</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 9</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 8</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 7</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 6</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>35 – Изменения во владении членов исполнительного органа акциями эмитента</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-35.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 5</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 4</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 06 – Решения, принятые высшим органом управления эмитента</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-6.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 3</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 2</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
               <tr>
                 <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. № 1</p></td>
-                <td><a href="">Посмотреть</a></td>
+                <td><a href="src/assets/pdfs/SignFactsPdf2022/signFacts2022-21.pdf" target="_blank">Посмотреть</a></td>
               </tr>
             </tbody>
           </table>
-        </div>
+        </div>z
         <div className="corp-manage-page__details">
           <div className="corp-manage-page__details-card">
             <img src={img1} alt="" />

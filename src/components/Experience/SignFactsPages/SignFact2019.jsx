@@ -37,7 +37,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-36.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -48,7 +48,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-36-2.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -59,7 +59,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-21-267.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -71,7 +71,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-6.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -82,7 +82,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-21-266.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -93,7 +93,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-21-263-265.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -104,7 +104,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-21-262.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -115,7 +115,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-21-261.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -126,7 +126,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-20.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -138,7 +138,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-8.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -149,7 +149,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-6.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -160,7 +160,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-36.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -172,7 +172,7 @@ const SignFact2019 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src\assets\pdfs\SignFactsPdf2019\SignFacts2019-22.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
             </tbody>

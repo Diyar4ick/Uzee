@@ -37,6 +37,10 @@ import Stratagy from "./components/Experience/Stratagy"
 import BusinessPlan from "./components/Experience/BusinessPlan"
 import Prospect from "./components/Experience/Prospect"
 import AutditConc from "./components/Experience/AutditConc"
+import DividentInfo from "./components/Experience/DividentInfo"
+import BusinessPlanDoing from "./components/Experience/BusinessPlanDoing"
+import VotingResults from "./components/Experience/VotingResults"
+import BudgetDist from "./components/Experience/BudgetDist"
 
 function App() {
 
@@ -60,9 +64,13 @@ function App() {
         <Route path="/FXD-table" element={<FXDTable/>}/>
         <Route path="/faces" element={<Faces/>}/>
         <Route path="/stratagy" element={<Stratagy/>}/>
-        <Route path="/business-plan" element={<BusinessPlan/>}/>
+        <Route path="/business-plan" element={<BusinessPlan/>}/> 
         <Route path="/prospect" element={<Prospect/>}/>
         <Route path="/autdit-conclusion" element={<AutditConc/>}/>
+        <Route path="/divident-info" element={<DividentInfo/>}/>
+        <Route path="/business-plan-doing" element={<BusinessPlanDoing/>}/>
+        <Route path="/voting-results" element={<VotingResults/>}/>
+        <Route path="/budget-distribution" element={<BudgetDist/>}/>
         <Route path="/adv" element={<Advanteges/>}/>
         <Route path="/contacts" element={<Contacts/>}/>
         <Route path="/service-1" element={<Service1/>}/>

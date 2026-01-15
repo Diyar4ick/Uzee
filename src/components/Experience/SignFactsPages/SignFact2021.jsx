@@ -36,7 +36,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-6.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -46,7 +46,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-41.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -56,7 +56,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-40.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -66,7 +66,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-39.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -76,7 +76,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-38.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -86,7 +86,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-37.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -96,17 +96,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    Сообщение о существенном факте АО «Узэнергоинжиниринг». 06 –Решения, принятые высшим органом управления эмитента  
-                  </p>
-                </td>
-                <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-35-36.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -116,7 +106,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-34.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -126,7 +116,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-33.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -136,7 +126,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-32.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -146,7 +136,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-31.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -156,7 +146,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-30.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -166,7 +156,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-29.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -176,7 +166,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-28.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -186,7 +176,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-27.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -196,7 +186,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-26.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -206,7 +196,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-25.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -216,7 +206,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-24.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -226,7 +216,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-30-10.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -236,7 +226,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-12.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -246,7 +236,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-22.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -256,7 +246,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-20.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -266,7 +256,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-19.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -276,7 +266,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-6.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -286,7 +276,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-32-2.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -296,7 +286,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-36.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -306,17 +296,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    Сообщение о существенном факте АО «Узэнергоинжиниринг». 06 –Решения, принятые высшим органом управления эмитента  
-                  </p>
-                </td>
-                <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-8.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -326,7 +306,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-23.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -336,7 +316,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-21-22.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -346,7 +326,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-21-19.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -356,7 +336,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-21-18.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -366,7 +346,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-21-17.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -376,7 +356,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-21-16.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -386,7 +366,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-21-15.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -396,7 +376,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-21-14.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -406,7 +386,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-21-13.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -416,7 +396,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-21-12.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -426,7 +406,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-11.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -436,7 +416,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-6-10.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -446,7 +426,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-5.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -456,7 +436,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-3-4.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -466,7 +446,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-2.pdf" target="_blank">Посмотреть</a>
                 </td>
               </tr>
               <tr>
@@ -476,7 +456,7 @@ const SignFact2021 = () => {
                   </p>
                 </td>
                 <td>
-                  <a href="">Посмотреть</a>
+                  <a href="src/assets/pdfs/SignFactsPdf2021/signFacts2021-1.pdf">Посмотреть</a>
                 </td>
               </tr>
             </tbody>

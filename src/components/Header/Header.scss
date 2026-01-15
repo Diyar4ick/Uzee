@@ -158,9 +158,20 @@
       }
 
       li {
-        padding: 10px 0;
+        padding: 5px 0;
+        // width: max-content;
+        transition: .2s;
+        &:hover {
+          background: #0068b4;
+        }
+        &:hover a{
+          color: white;
+        }
         a {
+          transition: .2s;
           text-transform: lowercase;
+          font-size: 14px;
+          // padding: 5px;
         }
           
       }
@@ -207,4 +218,4 @@
   }
 }
 
- 
+  

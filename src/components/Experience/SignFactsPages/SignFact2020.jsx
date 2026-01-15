@@ -29,103 +29,99 @@ const SignFact2020 = () => {
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №20</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-20.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №19  </p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-19.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №18  </p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-18.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг».36 – Изменения в списке аффилированных лиц</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-36.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №17</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-17.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №16</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-16.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №15</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-15.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №14</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-14.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №13</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-13.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №12</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-12.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №11</p></td>
-                    <td><a href="">Посмотреть</a></td>
-                  </tr>
-                  <tr>
-                    <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг».36 – Изменения в списке аффилированных лиц </p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-11.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг».32 – Начисление доходов по ценным бумагам </p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-32.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг».08 –Изменение в составе наблюдательного совета, ревизионной комиссии или исполнительного органа</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-8.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг».06 –Решения, принятые высшим органом управления эмитента</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-6.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №10</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-10.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №9</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-9.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №7 №8</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-7-8.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №6</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-6.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №5</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-5.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №4</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-4.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №3</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-3.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 06 – Решения, принятые высшим органом управления эмитента </p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-6.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №2</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-2.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                   <tr>
                     <td><p>Сообщение о существенном факте АО «Узэнергоинжиниринг». 21 – Заключение сделок с аффилированным лицом. №1</p></td>
-                    <td><a href="">Посмотреть</a></td>
+                    <td><a href="src/assets/pdfs/SignFactsPdf2020/SignFacts2020-21-1.pdf" target="_blank">Посмотреть</a></td>
                   </tr>
                 </tbody>
               </table>

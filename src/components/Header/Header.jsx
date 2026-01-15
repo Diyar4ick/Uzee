@@ -14,7 +14,7 @@ import { useState } from "react";
 
 const Header = () => {
   // const bannerImages = [
-  //   banner,
+  //   banner, 
   //   banner2,
 
   // ]
@@ -101,6 +101,7 @@ const Header = () => {
               <button type="submit">Опыт и компетенции ▾</button>
               {activeMenu === 'law' && (
                 <ul className="header__nav-dropdown">
+                  <p> - Раскрытие информации</p>
                 <li><NavLink to="/exp">Опыт и компетенции </NavLink></li>
                 <li><NavLink to="/corp-manage">Корпоративное управление</NavLink></li>
                 <li><NavLink to="/significant-facts">Существенные факты</NavLink></li>
@@ -111,17 +112,19 @@ const Header = () => {
                 <li><NavLink to="/business-plan">БИЗНЕС ПЛАНЫ ОБЩЕСТВА </NavLink></li>
                 <li><NavLink to="/prospect">Проспект эмиссии </NavLink></li>
                 <li><NavLink to="/autdit-conclusion">АУДИТОРСКИЕ ЗАКЛЮЧЕНИЯ МСФО </NavLink></li>
+                  <p> - АКЦИОНЕРАМ</p>
+                <li><NavLink to="/divident-info">Информация о дивидендах </NavLink></li>
+                <li><NavLink to="/business-plan-doing">Выполнение бизнес плана </NavLink></li>
+                <li><NavLink to="/voting-results">Итоги голосования ОСА </NavLink></li>
+                <li><NavLink to="/budget-distribution">Предлагаемое распределение чистой прибыли </NavLink></li>
               </ul>
               )}
-            </li>
+            </li> 
             <li className="header__nav-item" onClick={() => toggleMenu('service')}>
               <button type="submit">Почему выбирают нас ▾</button>
               {activeMenu === 'service' && (
                 <ul className="header__nav-dropdown">
                 <li><NavLink to="/adv">Почему выбирают нас </NavLink></li>
-                <li><a href="#">Text </a></li>
-                <li><a href="#">Text </a></li>
-                <li><a href="#">Text </a></li>
               </ul>
               )}
             </li>
