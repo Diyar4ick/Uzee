@@ -71,7 +71,6 @@
         width: 100%;
       }
     }
-
     &-list {
       display: flex;
       align-items: center;
@@ -155,6 +154,8 @@
 
       @include media(800) {
         position: inherit;
+      overflow-y: scroll;
+      max-height: 60vh;
       }
 
       li {

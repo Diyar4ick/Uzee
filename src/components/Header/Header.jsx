@@ -101,7 +101,7 @@ const Header = () => {
               <button type="submit">Опыт и компетенции ▾</button>
               {activeMenu === 'law' && (
                 <ul className="header__nav-dropdown">
-                  <p> - Раскрытие информации</p>
+                  <p> - Раскрытие информации</p> 
                 <li><NavLink to="/exp">Опыт и компетенции </NavLink></li>
                 <li><NavLink to="/corp-manage">Корпоративное управление</NavLink></li>
                 <li><NavLink to="/significant-facts">Существенные факты</NavLink></li>
