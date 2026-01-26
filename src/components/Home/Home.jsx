@@ -8,8 +8,6 @@ import homeBanner from "../../assets/images/homePages/homePageBanner.jpg";
 
 // import checkmark from "../../assets/images/checkmark.svg";
 // import adventages from "../../assets/images/companyIcons/company-advantages.jpg";
-
-import sert7 from '../../assets/images/serts/sert7.jpg'
 import MainBanner from "../Banners/MainBanner";
 
 
@@ -380,7 +378,6 @@ const Home = () => {
             <span className="enter"></span>
             АО «O'zenergoinjiniring»  принимал участие в проектировании линий электропередач 10 - 110 kV и подстанций напряжением 35 - 110 kV для объектов с иностранными инвестициями, строительство которых выполнялось с 1993 года и продолжается в настоящее время.
           </p>
-          <img src={sert7} alt="" />
         </div>
       </section>
      
